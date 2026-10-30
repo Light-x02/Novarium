@@ -19,7 +19,7 @@ Les identifiants API sont configurés localement et ne sont pas embarqués dans 
 
 Les sauvegardes et exports de profil peuvent inclure des informations personnelles. Les clés API sont exclues par défaut, mais leur inclusion peut être demandée explicitement pour certains exports. Les fichiers ebooks ne sont copiés que si l’option complète correspondante est choisie. Conservez ces archives dans un emplacement privé.
 
-Le serveur web se limite à la boucle locale. La séparation des profils n’est pas une authentification destinée à protéger des données contre un autre utilisateur ayant accès au même compte Windows.
+Le serveur interne de l’application se limite à la boucle locale et n’est pas exposé au réseau local. La séparation des profils n’est pas une authentification destinée à protéger des données contre un autre utilisateur ayant accès au même compte Windows.
 
 ## Signalements
 

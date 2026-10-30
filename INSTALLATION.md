@@ -4,15 +4,13 @@
 
 Télécharger uniquement l’archive versionnée depuis les [Releases officielles](https://github.com/Light-x02/Novarium/releases). Son empreinte SHA-256 figure sur la page de version ; elle doit correspondre au fichier téléchargé.
 
-Extraire complètement l’archive. Dans le dossier `NOVARIUM`, conserver ensemble `NOVARIUM.exe`, `LANCER_WEB.bat`, `_internal` et les autres ressources. Le programme utilise une distribution en dossier, pas un EXE isolé. Aucun Python ni Node.js n’est requis.
+Extraire complètement l’archive. Dans le dossier `NOVARIUM`, conserver ensemble `NOVARIUM.exe`, `_internal` et toutes les ressources fournies. Le programme utilise une distribution en dossier, pas un EXE isolé. Aucun Python ni Node.js n’est requis.
 
-## Choisir son mode
+## Ouvrir NOVARIUM
 
-**Fenêtre Windows** : ouvrir `NOVARIUM.exe`. Installer le Runtime Evergreen Microsoft Edge WebView2 s’il est signalé manquant, depuis [Microsoft](https://developer.microsoft.com/microsoft-edge/webview2/).
+Ouvrir **`NOVARIUM.exe`**. L’application s’affiche dans sa propre fenêtre Windows. Installer le Runtime Evergreen Microsoft Edge WebView2 s’il est signalé manquant, depuis [Microsoft](https://developer.microsoft.com/microsoft-edge/webview2/).
 
-**Navigateur** : ouvrir `LANCER_WEB.bat`. Le serveur local utilise `http://127.0.0.1:8766/` et reste limité à cet ordinateur. Garder la console ouverte et utiliser **Ctrl+C** pour arrêter proprement le serveur. L’ouverture automatique du navigateur se règle dans les paramètres. Le mode web ne nécessite pas WebView2.
-
-Fermer un mode avant de lancer l’autre. En cas de port occupé, fermer l’autre instance concernée ; NOVARIUM n’arrête pas un programme tiers pour libérer son port.
+Ne pas supprimer les fichiers annexes du dossier du programme. Si une instance est déjà ouverte, l’enregistrer et la fermer normalement avant de relancer NOVARIUM.
 
 ## Profils et données
 
