@@ -39,10 +39,10 @@ Consulter la [confidentialité](CONFIDENTIALITE.md) et les [conditions d’utili
 
 1. Télécharger **`NOVARIUM-vX.Y.Z.zip`** depuis les [versions officielles](https://github.com/Light-x02/Novarium/releases).
 2. Extraire **tout** le contenu de l’archive dans un dossier accessible en écriture.
-3. Ouvrir **`NOVARIUM/NOVARIUM.exe`** pour la fenêtre Windows, ou **`NOVARIUM/LANCER_WEB.bat`** pour le navigateur.
+3. Ouvrir **`NOVARIUM/NOVARIUM.exe`** : NOVARIUM démarre dans sa fenêtre Windows.
 4. Conserver le dossier **`_internal`** et toutes les ressources à côté de l’EXE.
 
-**Prérequis : Windows 11 x64.** Python et Node.js ne sont pas nécessaires. Le mode bureau utilise [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/). Le mode web utilise un navigateur et un serveur limité à la boucle locale.
+**Prérequis : Windows 11 x64** et [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/). Python et Node.js ne sont pas nécessaires. Un futur installateur Windows simplifiera l’installation ; la version actuellement proposée est une archive complète à extraire.
 
 [Instructions détaillées et dépannage →](INSTALLATION.md)
 
@@ -54,7 +54,7 @@ NOVARIUM utilise l’API TMDB mais n’est ni approuvé ni certifié par TMDB. L
 
 ## Besoin d’aide ?
 
-[Ouvrir un signalement](https://github.com/Light-x02/Novarium/issues/new) en précisant la version, le mode bureau ou web et les étapes permettant de reproduire le problème. Joindre uniquement des captures anonymisées. **Ne publiez jamais de clé API, de jeton, de base de données, de sauvegarde ou de livre numérique.**
+[Ouvrir un signalement](https://github.com/Light-x02/Novarium/issues/new) en précisant la version de NOVARIUM, la version de Windows et les étapes permettant de reproduire le problème. Joindre uniquement des captures anonymisées. **Ne publiez jamais de clé API, de jeton, de base de données, de sauvegarde ou de livre numérique.**
 
 ---
 
