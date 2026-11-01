@@ -58,4 +58,4 @@ NOVARIUM utilise l’API TMDB mais n’est ni approuvé ni certifié par TMDB. L
 
 ---
 
-NOVARIUM · Créé par **Light_x02** · Logiciel propriétaire gratuit. Ce dépôt héberge la présentation et les téléchargements, pas le code source de l’application.
+NOVARIUM · Créé par **Light_x02** · Logiciel propriétaire gratuit. Ce dépôt héberge la présentation et les téléchargements de l’application.
