@@ -6,7 +6,7 @@
 
 ---
 
-**NOVARIUM est une application Windows gratuite et propriétaire pour organiser vos collections personnelles.** Une interface immersive, des profils indépendants et des données conservées sur votre ordinateur, sans compte NOVARIUM obligatoire.
+**NOVARIUM est une application Windows gratuite et propriétaire pour organiser vos collections personnelles.** Une interface immersive, des profils indépendants et des données conservées sur votre ordinateur.
 
 ## Quatre bibliothèques, toutes vos histoires
 
