@@ -1,10 +1,24 @@
 # Installer NOVARIUM
 
-## Windows 11 x64
+## Configuration Windows
 
-Télécharger uniquement l’archive versionnée depuis les [Releases officielles](https://github.com/Light-x02/Novarium/releases). Son empreinte SHA-256 figure sur la page de version ; elle doit correspondre au fichier téléchargé.
+- **Windows 11 x64** : système utilisé pour les tests de NOVARIUM.
+- **Windows 10 22H2 x64** : compatibilité prévue d’après les composants utilisés, mais pas encore vérifiée par un test complet de NOVARIUM sous Windows 10.
 
-Extraire complètement l’archive. Dans le dossier `NOVARIUM`, conserver ensemble `NOVARIUM.exe`, `_internal` et toutes les ressources fournies. Le programme utilise une distribution en dossier, pas un EXE isolé. Aucun Python ni Node.js n’est requis.
+Cette archive est destinée aux PC x64. La compatibilité Windows 32 bits et ARM64 n’est pas validée.
+
+## Composants requis
+
+- **Microsoft Edge WebView2 Runtime Evergreen** : déjà inclus dans Windows 11 et présent sur la plupart des PC Windows 10. S’il manque, télécharger le **Evergreen Bootstrapper** depuis [Microsoft](https://developer.microsoft.com/microsoft-edge/webview2/#download), l’exécuter, puis relancer NOVARIUM. Pour une installation hors ligne, choisir **Evergreen Standalone Installer — x64**. Le navigateur Edge seul ne remplace pas ce composant.
+- **.NET Framework 4.8 ou ultérieur** : normalement présent dans Windows 10 22H2 et Windows 11. S’il est absent ou endommagé, utiliser le [Runtime .NET Framework 4.8 de Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48), puis redémarrer Windows si l’installation le demande. Aucun pack de développement n’est nécessaire.
+
+Ces composants sont pris en charge sous Windows 10 et Windows 11 selon la [documentation WebView2](https://learn.microsoft.com/en-us/microsoft-edge/webview2/) et la [documentation .NET Framework](https://learn.microsoft.com/en-us/dotnet/framework/install/versions-and-dependencies). Cela ne remplace pas une validation réelle de NOVARIUM sur chaque système.
+
+## Télécharger et extraire
+
+Télécharger uniquement l’archive versionnée depuis les [Releases officielles](https://github.com/Light-x02/Novarium/releases). L’empreinte SHA-256 indiquée par GitHub pour le fichier joint permet de vérifier le téléchargement.
+
+Extraire complètement l’archive. Dans le dossier `NOVARIUM`, conserver ensemble `NOVARIUM.exe`, `_internal` et toutes les ressources fournies. Le programme utilise une distribution en dossier, pas un EXE isolé.
 
 ## Ouvrir NOVARIUM
 
@@ -16,13 +30,15 @@ Ne pas supprimer les fichiers annexes du dossier du programme. Si une instance e
 
 Choisir ou créer un profil. Les données se trouvent par défaut sous `%LOCALAPPDATA%\NOVARIUM\`, séparées du dossier du programme. L’emplacement de la base et les sauvegardes se gèrent dans **Paramètres → Données et sauvegardes**. Ne supprimer aucun dossier de données lors d’une mise à jour.
 
+Le crayon d’un profil permet de modifier son identité ou de le dupliquer. La copie est indépendante. Pour les profils secondaires, **Supprimer le profil** exige la saisie du nom exact et retire définitivement les données actives dont l’appartenance est vérifiée. Le profil principal ne peut pas être supprimé. Les sauvegardes conservées et fichiers externes ne sont pas supprimés ; les réinitialisations restent des opérations distinctes.
+
 Pour récupérer des métadonnées, configurer les services souhaités dans les paramètres. Les clés restent locales ; aucune clé de l’éditeur n’est distribuée. Certains services imposent une inscription, un quota ou un abonnement distinct.
 
 ## Mettre à jour
 
 Dans **Paramètres → Mises à jour**, lancer une recherche ou conserver la recherche au démarrage. Le téléchargement est vérifié avant installation. Enregistrer les modifications et terminer les imports avant de confirmer **Fermer et installer**. L’ancien programme est conservé ; les données ne sont pas remplacées.
 
-Tant que le dépôt de téléchargement est privé, son accès nécessite une autorisation GitHub configurée localement. Lorsque ce même dépôt sera public, aucun compte ni jeton GitHub ne sera nécessaire pour télécharger les versions publiques. Aucun jeton personnel n’est embarqué.
+Le dépôt de téléchargement est public : aucun compte ni jeton GitHub n’est nécessaire pour télécharger les versions et utiliser la recherche de mises à jour.
 
 Une ancienne version du programme peut ne pas être compatible avec une base plus récente. Effectuer une sauvegarde et vérifier la compatibilité du schéma avant un retour en arrière.
 

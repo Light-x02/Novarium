@@ -17,4 +17,4 @@ Les notices Python et Pillow couvrent également leurs composants natifs déclar
 
 Les droits et restrictions d’utilisation des métadonnées et images restent applicables. Les archives NOVARIUM n’embarquent pas de collection personnelle ni d’affiches, de portraits ou de résumés téléchargés à partir des comptes de test. Les ressources graphiques de marque sont distinctes.
 
-Les droits d’utilisation des services, leur éventuel coût et leurs quotas doivent être vérifiés pour chaque usage. Avant une ouverture publique ou un changement d’usage, le créateur doit confirmer les autorisations nécessaires ; la gratuité de NOVARIUM ne constitue pas à elle seule une autorisation de fournisseur.
+Les droits d’utilisation des services, leur éventuel coût et leurs quotas doivent être vérifiés pour chaque usage. Pour la diffusion publique ou un changement d’usage, le créateur doit confirmer les autorisations nécessaires ; la gratuité de NOVARIUM ne constitue pas à elle seule une autorisation de fournisseur.

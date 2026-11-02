@@ -21,7 +21,7 @@
 
 - **Accueil personnalisable** : œuvres à la une, sections réorganisables et collections du moment.
 - **Métadonnées et illustrations** : recherche et prévisualisation avant import, choix d’images, recadrage et modifications personnelles.
-- **Profils distincts** : collections, favoris et suivis séparés, avatar et préférences propres à chaque profil.
+- **Profils distincts** : collections, favoris et suivis séparés, avatar et préférences propres à chaque profil. Duplication indépendante, gestion du stockage, réinitialisation et suppression des profils secondaires avec confirmation.
 - **Thèmes et décors** : accents colorés, transparence, effets, animations réglables et fonds personnalisables.
 - **Sauvegardes et transferts** : sauvegardes vérifiées, restauration avec confirmation, export de profils et de collections.
 - **Imports** : ajout manuel, CSV IMDb, fichiers ebooks et enrichissement explicite des métadonnées d’une collection.
@@ -42,7 +42,7 @@ Consulter la [confidentialité](CONFIDENTIALITE.md) et les [conditions d’utili
 3. Ouvrir **`NOVARIUM/NOVARIUM.exe`** : NOVARIUM démarre dans sa fenêtre Windows.
 4. Conserver le dossier **`_internal`** et toutes les ressources à côté de l’EXE.
 
-**Prérequis : Windows 11 x64** et [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/). Python et Node.js ne sont pas nécessaires. Un futur installateur Windows simplifiera l’installation ; la version actuellement proposée est une archive complète à extraire.
+**Windows 11 x64 : version testée. Windows 10 22H2 x64 : compatibilité prévue, pas encore vérifiée sur ce système.** Microsoft Edge WebView2 Runtime et .NET Framework 4.8 ou ultérieur doivent être présents. Ils sont généralement déjà installés ; les [instructions détaillées](INSTALLATION.md#composants-requis) indiquent quoi installer s’ils manquent. La version actuellement proposée est une archive complète à extraire.
 
 [Instructions détaillées et dépannage →](INSTALLATION.md)
 

@@ -6,6 +6,6 @@ La gratuité ne transfère aucun droit de propriété intellectuelle sur NOVARIU
 
 Le logo vectoriel de ce dépôt est une ressource de marque créée pour NOVARIUM. Il n’emporte aucune garantie d’exclusivité sur le nom ou le signe. Les illustrations importées par les utilisateurs et les médias des fournisseurs ne sont pas des ressources de marque librement réutilisables.
 
-Les conditions définitives d’utilisation, les informations légales complètes de l’éditeur et le contact adapté devront être validés par le créateur avant l’ouverture du dépôt au public. Le pseudonyme ci-dessus ne prétend pas remplacer les mentions imposées par la situation juridique de l’éditeur. Aucune adresse personnelle ni identité civile n’est publiée dans cette préparation privée.
+Les conditions définitives d’utilisation, les informations légales complètes de l’éditeur et le contact adapté restent à valider et à compléter par le créateur pour la diffusion publique. Le pseudonyme ci-dessus ne prétend pas remplacer les mentions imposées par la situation juridique de l’éditeur. Aucune adresse personnelle ni identité civile n’est publiée dans ce dépôt public.
 
 Pour les questions relatives à la distribution : [signalements GitHub](https://github.com/Light-x02/Novarium/issues). Pour les composants tiers, voir [TIERS.md](TIERS.md) et les notices complètes jointes aux versions.

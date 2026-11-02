@@ -15,12 +15,16 @@ Les fournisseurs et hébergeurs peuvent recevoir votre adresse IP et les informa
 
 ## Clés, sauvegardes et exports
 
-Les identifiants API sont configurés localement et ne sont pas embarqués dans les téléchargements. L’accès GitHub privé facultatif du système de mise à jour est chiffré avec Windows pour le compte utilisateur courant. Les autres paramètres API restent dans le stockage local de NOVARIUM ; n’accordez pas l’accès à vos dossiers de données à une personne non autorisée.
+Les identifiants API sont configurés localement et ne sont pas embarqués dans les téléchargements. Les téléchargements et mises à jour publics ne demandent pas de jeton GitHub. Les paramètres API restent dans le stockage local de NOVARIUM ; n’accordez pas l’accès à vos dossiers de données à une personne non autorisée.
 
 Les sauvegardes et exports de profil peuvent inclure des informations personnelles. Les clés API sont exclues par défaut, mais leur inclusion peut être demandée explicitement pour certains exports. Les fichiers ebooks ne sont copiés que si l’option complète correspondante est choisie. Conservez ces archives dans un emplacement privé.
 
 Le serveur interne de l’application se limite à la boucle locale et n’est pas exposé au réseau local. La séparation des profils n’est pas une authentification destinée à protéger des données contre un autre utilisateur ayant accès au même compte Windows.
 
+## Suppression et réinitialisation des profils
+
+La suppression d’un profil secondaire retire définitivement ses données actives attestées après confirmation explicite. Elle ne supprime pas les sauvegardes conservées, anciennes quarantaines ou fichiers externes et ebooks originaux. Les journaux techniques nécessaires à la reprise d’une suppression interrompue peuvent rester dans le stockage local. Le profil principal est protégé. Les deux réinitialisations conservent un ancien état de récupération ; elles ne sont pas équivalentes à la suppression d’un profil.
+
 ## Signalements
 
-Les [Issues GitHub](https://github.com/Light-x02/Novarium/issues) sont un service externe. Une fois le dépôt public, les messages qui y sont publiés pourront être visibles publiquement. Anonymisez vos captures et n’envoyez aucune clé, sauvegarde, collection complète ou fichier ebook.
+Les [Issues GitHub](https://github.com/Light-x02/Novarium/issues) sont un service externe. Les messages qui y sont publiés sont visibles publiquement. Anonymisez vos captures et n’envoyez aucune clé, sauvegarde, collection complète ou fichier ebook.
