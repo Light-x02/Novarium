@@ -2,7 +2,7 @@
 
 NOVARIUM est propriétaire et gratuit. Il utilise des composants tiers qui conservent leurs propres licences. Les textes complets et l’inventaire des versions sont joints dans **`NOVARIUM/_internal/licenses/`** de l’archive distribuée ; ne pas retirer ce dossier.
 
-L’inventaire inclut les bibliothèques d’exécution et un sur-ensemble des outils de construction : tous ne sont pas incorporés au programme. Il identifie notamment React, Motion, Lucide, Tailwind CSS, FastAPI, SQLAlchemy, Alembic, pywebview, Python, Pillow et pypdf. PyInstaller comporte une exception permettant de distribuer les applications assemblées sous leur propre licence ; cela ne modifie pas les obligations propres aux dépendances.
+L’inventaire précise les versions et licences des composants utilisés, notamment React, Motion, Lucide, Tailwind CSS, FastAPI, SQLAlchemy, Alembic, pywebview, Python, Pillow et pypdf. PyInstaller comporte une exception permettant de distribuer les applications assemblées sous leur propre licence ; cela ne modifie pas les obligations propres aux dépendances.
 
 Les notices Python et Pillow couvrent également leurs composants natifs déclarés. Certifi est fourni sans modification sous MPL-2.0 ; les sources de la version précise figurant dans l’inventaire sont disponibles sur [PyPI](https://pypi.org/project/certifi/). Le SDK WebView2 conserve la notice Microsoft jointe ; le Runtime Evergreen est fourni séparément par Microsoft.
 
@@ -24,6 +24,6 @@ ABI compatible. [Projet FFmpeg et conditions](https://ffmpeg.org/legal.html).
 - **DeepL** : traduction facultative avec votre propre accès. [Conditions](https://www.deepl.com/pro-license).
 - **JustWatch** : données de disponibilités via TMDB, datées et distinctes des collections personnelles.
 
-Les droits et restrictions d’utilisation des métadonnées et images restent applicables. Les archives NOVARIUM n’embarquent pas de collection personnelle ni d’affiches, de portraits ou de résumés téléchargés à partir des comptes de test. Les ressources graphiques de marque sont distinctes.
+Les droits et restrictions d’utilisation des métadonnées et images restent applicables. Les téléchargements de NOVARIUM ne contiennent aucune bibliothèque personnelle. Les ressources graphiques de marque sont distinctes.
 
 Les droits d’utilisation des services, leur éventuel coût et leurs quotas doivent être vérifiés pour chaque usage. Pour la diffusion publique ou un changement d’usage, le créateur doit confirmer les autorisations nécessaires ; la gratuité de NOVARIUM ne constitue pas à elle seule une autorisation de fournisseur.

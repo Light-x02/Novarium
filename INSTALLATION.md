@@ -30,7 +30,7 @@ Ne pas supprimer les fichiers annexes du dossier du programme. Si une instance e
 
 Choisir ou créer un profil. Les données se trouvent par défaut sous `%LOCALAPPDATA%\NOVARIUM\`, séparées du dossier du programme. L’emplacement de la base et les sauvegardes se gèrent dans **Paramètres → Données et sauvegardes**. Ne supprimer aucun dossier de données lors d’une mise à jour.
 
-Le crayon d’un profil permet de modifier son identité ou de le dupliquer. La copie est indépendante. Pour les profils secondaires, **Supprimer le profil** exige la saisie du nom exact et retire définitivement les données actives dont l’appartenance est vérifiée. Le profil principal ne peut pas être supprimé. Les sauvegardes conservées et fichiers externes ne sont pas supprimés ; les réinitialisations restent des opérations distinctes.
+Le crayon d’un profil permet de le modifier, de le dupliquer ou de le supprimer. La suppression demande une confirmation explicite et le nom exact du profil. Les sauvegardes et fichiers externes sont conservés.
 
 Pour récupérer des métadonnées, configurer les services souhaités dans les paramètres. Les clés restent locales ; aucune clé de l’éditeur n’est distribuée. Certains services imposent une inscription, un quota ou un abonnement distinct.
 
@@ -46,13 +46,13 @@ Une ancienne version du programme peut ne pas être compatible avec une base plu
 
 Si Windows ou un antivirus bloque un fichier, conserver le détail de l’alerte, la version et l’empreinte du fichier pour le signalement. Ne pas désactiver les protections pour contourner un avertissement inexpliqué. Le programme n’est pas annoncé comme signé tant qu’une signature de code vérifiable n’est pas fournie.
 
-Les installateurs Windows pourront être ajoutés ultérieurement ; la version actuellement proposée est une archive à extraire.
+La version proposée est une archive à extraire.
 
 ## Nouveau socle de données en 0.46.0
 
 La 0.46.0 utilise un nouveau format de données, de sauvegardes et d’archives. Les anciens profils et exports ne sont pas convertis ni importables dans ce socle. Lorsqu’un ancien stockage est détecté, le programme demande confirmation avant de créer un espace vierge ; les anciens fichiers restent conservés. Gardez l’ancienne installation et ses sauvegardes pour consulter vos anciennes données. Une ancienne version ne doit pas ouvrir une base plus récente.
 
-FFprobe est fourni : aucune installation de sonde vidéo n’est nécessaire. Conservez ses DLL et les sources et licences tierces jointes au dossier `_internal`.
+L’analyse de la qualité vidéo est intégrée : aucun outil supplémentaire n’est à installer. Conservez tous les fichiers fournis avec le programme.
 
 SHA-256 de `NOVARIUM-v0.46.0.zip` :
 

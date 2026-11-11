@@ -23,7 +23,7 @@ Le serveur interne de l’application se limite à la boucle locale et n’est p
 
 ## Suppression et réinitialisation des profils
 
-La suppression d’un profil secondaire retire définitivement ses données actives attestées après confirmation explicite. Elle ne supprime pas les sauvegardes conservées, anciennes quarantaines ou fichiers externes et ebooks originaux. Les journaux techniques nécessaires à la reprise d’une suppression interrompue peuvent rester dans le stockage local. Le profil principal est protégé. Les deux réinitialisations conservent un ancien état de récupération ; elles ne sont pas équivalentes à la suppression d’un profil.
+La suppression d’un profil retire définitivement ses données après confirmation. Les sauvegardes et fichiers externes sont conservés. Des données de récupération et journaux techniques peuvent être conservés pour terminer une opération interrompue. La réinitialisation et la suppression sont des opérations distinctes.
 
 ## Signalements
 
@@ -31,4 +31,4 @@ Les [Issues GitHub](https://github.com/Light-x02/Novarium/issues) sont un servic
 
 ## Dossiers vidéo
 
-L’analyse des fichiers et de leur qualité s’effectue localement avec FFprobe. Les vidéos ne sont pas téléversées vers un fournisseur. Les recherches de métadonnées transmettent les titres ou identifiants nécessaires aux services sélectionnés. Les chemins des fichiers peuvent figurer dans les données du profil et ses exports : ne partagez pas ces archives publiquement. La lecture transmet le fichier à votre lecteur Windows uniquement après votre clic.
+L’analyse des fichiers et de leur qualité s’effectue sur votre ordinateur. Les vidéos ne sont pas téléversées vers un fournisseur. Les recherches de métadonnées transmettent les titres ou identifiants nécessaires aux services sélectionnés. Les chemins des fichiers peuvent figurer dans les données du profil et ses exports : ne partagez pas ces archives publiquement. La lecture transmet le fichier à votre lecteur Windows uniquement après votre clic.

@@ -25,11 +25,11 @@
 
 - **Accueil personnalisable** : œuvres à la une, sections réorganisables et collections du moment.
 - **Métadonnées et illustrations** : recherche et prévisualisation avant import, choix d’images, recadrage et modifications personnelles.
-- **Profils distincts** : collections, favoris et suivis séparés, avatar et préférences propres à chaque profil. Duplication indépendante, gestion du stockage, réinitialisation et suppression de tous les profils avec confirmation, y compris le premier et le dernier.
+- **Profils distincts** : collections, favoris et suivis séparés, avatar et préférences propres à chaque profil. Duplication, gestion du stockage et suppression avec confirmation.
 - **Thèmes et décors** : accents colorés, transparence, effets, animations réglables et fonds personnalisables.
 - **Sauvegardes et transferts** : sauvegardes vérifiées, restauration avec confirmation, export de profils et de collections.
 - **Imports** : ajout manuel, listes IMDb et dossiers vidéo. Sélection groupée, correction des titres, correspondances confirmées et collections facultatives à partir des dossiers.
-- **Vidéos sur votre PC** : films et épisodes associés aux fiches, résolution et HDR analysés avec FFprobe embarqué, puis ouverture dans votre lecteur Windows au clic. Import des métadonnées de toutes les saisons, même si seuls certains épisodes sont présents sur le disque.
+- **Vidéos sur votre PC** : retrouvez vos films et séries, leur qualité vidéo et leurs informations, puis lancez leur lecture dans votre lecteur habituel.
 - **Mises à jour intégrées** : recherche au démarrage désactivable et recherche manuelle. Chaque installation demande votre accord et conserve le programme précédent.
 
 ## Sur votre ordinateur
