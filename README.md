@@ -10,6 +10,8 @@
 
 ![Accueil de NOVARIUM : collections du moment, œuvre à la une et favoris](assets/novarium-home.png)
 
+**Version actuelle : [0.46.0](https://github.com/Light-x02/Novarium/releases/tag/v0.46.0).**
+
 ## Quatre bibliothèques, toutes vos histoires
 
 | Votre univers | Ce que vous pouvez organiser |
@@ -23,17 +25,18 @@
 
 - **Accueil personnalisable** : œuvres à la une, sections réorganisables et collections du moment.
 - **Métadonnées et illustrations** : recherche et prévisualisation avant import, choix d’images, recadrage et modifications personnelles.
-- **Profils distincts** : collections, favoris et suivis séparés, avatar et préférences propres à chaque profil. Duplication indépendante, gestion du stockage, réinitialisation et suppression des profils secondaires avec confirmation.
+- **Profils distincts** : collections, favoris et suivis séparés, avatar et préférences propres à chaque profil. Duplication indépendante, gestion du stockage, réinitialisation et suppression de tous les profils avec confirmation, y compris le premier et le dernier.
 - **Thèmes et décors** : accents colorés, transparence, effets, animations réglables et fonds personnalisables.
 - **Sauvegardes et transferts** : sauvegardes vérifiées, restauration avec confirmation, export de profils et de collections.
-- **Imports** : ajout manuel, CSV IMDb, fichiers ebooks et enrichissement explicite des métadonnées d’une collection.
+- **Imports** : ajout manuel, listes IMDb et dossiers vidéo. Sélection groupée, correction des titres, correspondances confirmées et collections facultatives à partir des dossiers.
+- **Vidéos sur votre PC** : films et épisodes associés aux fiches, résolution et HDR analysés avec FFprobe embarqué, puis ouverture dans votre lecteur Windows au clic. Import des métadonnées de toutes les saisons, même si seuls certains épisodes sont présents sur le disque.
 - **Mises à jour intégrées** : recherche au démarrage désactivable et recherche manuelle. Chaque installation demande votre accord et conserve le programme précédent.
 
 ## Sur votre ordinateur
 
 La bibliothèque déjà enregistrée reste consultable hors ligne. Les recherches de métadonnées, certaines images distantes et la recherche de mises à jour utilisent Internet. Les données personnelles restent dans un dossier distinct du programme, par défaut `%LOCALAPPDATA%\NOVARIUM\`.
 
-NOVARIUM sert au catalogage et au suivi : vos fichiers multimédias ne sont pas lancés automatiquement. Les bandes-annonces YouTube ne sont chargées qu’après votre action.
+Les vidéos restent dans vos dossiers : NOVARIUM ne les déplace ni ne les supprime. Leur lecture utilise votre lecteur Windows, uniquement après votre clic. Les bandes-annonces YouTube ne sont chargées qu’après votre action.
 
 Consulter la [confidentialité](CONFIDENTIALITE.md) et les [conditions d’utilisation](MENTIONS_LEGALES.md).
 

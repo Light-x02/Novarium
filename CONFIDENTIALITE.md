@@ -6,7 +6,7 @@ NOVARIUM est une application locale. Aucun compte NOVARIUM distant n’est néce
 
 - Les recherches et imports de métadonnées transmettent les titres, identifiants ou critères nécessaires aux fournisseurs sélectionnés : TMDB, OMDb, IGDB/Twitch, Google Books ou Open Library.
 - La traduction facultative transmet à DeepL le texte public sélectionné à traduire, pas vos avis personnels.
-- Certains portraits d’acteurs et affiches de filmographie sont affichés depuis des URL de fournisseurs. L’affichage peut donc entraîner une connexion à ces hébergeurs. Les portraits favoris peuvent être conservés localement.
+- Certains portraits d’acteurs et affiches de filmographie sont affichés depuis des URL de fournisseurs. L’affichage peut donc entraîner une connexion à ces hébergeurs. Les portraits des acteurs favoris sont conservés localement. Les affiches et couvertures des œuvres sont locales ; les nouvelles images d’épisodes utilisent les URL des fournisseurs.
 - La recherche de mises à jour contacte GitHub ; elle est activée par défaut et désactivable. Le téléchargement et l’installation requièrent votre accord.
 - Une bande-annonce YouTube est chargée après clic. Les services externes appliquent leurs propres règles de confidentialité, conditions et limites.
 - WebView2 et Windows peuvent posséder leurs propres mécanismes de mise à jour, distincts de NOVARIUM.
@@ -28,3 +28,7 @@ La suppression d’un profil secondaire retire définitivement ses données acti
 ## Signalements
 
 Les [Issues GitHub](https://github.com/Light-x02/Novarium/issues) sont un service externe. Les messages qui y sont publiés sont visibles publiquement. Anonymisez vos captures et n’envoyez aucune clé, sauvegarde, collection complète ou fichier ebook.
+
+## Dossiers vidéo
+
+L’analyse des fichiers et de leur qualité s’effectue localement avec FFprobe. Les vidéos ne sont pas téléversées vers un fournisseur. Les recherches de métadonnées transmettent les titres ou identifiants nécessaires aux services sélectionnés. Les chemins des fichiers peuvent figurer dans les données du profil et ses exports : ne partagez pas ces archives publiquement. La lecture transmet le fichier à votre lecteur Windows uniquement après votre clic.

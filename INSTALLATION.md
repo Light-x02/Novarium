@@ -47,3 +47,15 @@ Une ancienne version du programme peut ne pas être compatible avec une base plu
 Si Windows ou un antivirus bloque un fichier, conserver le détail de l’alerte, la version et l’empreinte du fichier pour le signalement. Ne pas désactiver les protections pour contourner un avertissement inexpliqué. Le programme n’est pas annoncé comme signé tant qu’une signature de code vérifiable n’est pas fournie.
 
 Les installateurs Windows pourront être ajoutés ultérieurement ; la version actuellement proposée est une archive à extraire.
+
+## Nouveau socle de données en 0.46.0
+
+La 0.46.0 utilise un nouveau format de données, de sauvegardes et d’archives. Les anciens profils et exports ne sont pas convertis ni importables dans ce socle. Lorsqu’un ancien stockage est détecté, le programme demande confirmation avant de créer un espace vierge ; les anciens fichiers restent conservés. Gardez l’ancienne installation et ses sauvegardes pour consulter vos anciennes données. Une ancienne version ne doit pas ouvrir une base plus récente.
+
+FFprobe est fourni : aucune installation de sonde vidéo n’est nécessaire. Conservez ses DLL et les sources et licences tierces jointes au dossier `_internal`.
+
+SHA-256 de `NOVARIUM-v0.46.0.zip` :
+
+```text
+e3109cd8823f8ef1e4973c539e174222c6269bb8d9bfd509c289e7cfa694520d
+```

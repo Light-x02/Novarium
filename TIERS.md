@@ -6,6 +6,15 @@ L’inventaire inclut les bibliothèques d’exécution et un sur-ensemble des o
 
 Les notices Python et Pillow couvrent également leurs composants natifs déclarés. Certifi est fourni sans modification sous MPL-2.0 ; les sources de la version précise figurant dans l’inventaire sont disponibles sur [PyPI](https://pypi.org/project/certifi/). Le SDK WebView2 conserve la notice Microsoft jointe ; le Runtime Evergreen est fourni séparément par Microsoft.
 
+## Analyse des vidéos locales
+
+FFprobe et trois bibliothèques FFmpeg sont fournis sous LGPL-2.1-or-later,
+sans lecteur multimédia ni encodeur. Leurs sources exactes, la recette de
+reconstruction et leurs licences sont incluses dans
+`NOVARIUM/_internal/licenses/ffprobe/` de l’archive téléchargée, notamment
+`FFmpeg-source.tar.gz`. Les bibliothèques restent remplaçables par une version
+ABI compatible. [Projet FFmpeg et conditions](https://ffmpeg.org/legal.html).
+
 ## Services de métadonnées
 
 - **TMDB** : NOVARIUM utilise l’API TMDB mais n’est ni approuvé ni certifié par TMDB. [Conditions](https://www.themoviedb.org/api-terms-of-use).
