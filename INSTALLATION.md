@@ -48,6 +48,8 @@ Si Windows ou un antivirus bloque un fichier, conserver le détail de l’alerte
 
 La version proposée est une archive à extraire.
 
+Pour une question d’installation ou d’utilisation, consultez [Questions et aide](https://github.com/Light-x02/Novarium/discussions/categories/questions-et-aide). Pour proposer une amélioration, utilisez [Idées et suggestions](https://github.com/Light-x02/Novarium/discussions/categories/id%C3%A9es-et-suggestions). Les [Issues](https://github.com/Light-x02/Novarium/issues) permettent de signaler les bugs. Ne partagez aucun identifiant secret ni fichier personnel.
+
 ## Nouveau socle de données en 0.46.0
 
 La 0.46.0 utilise un nouveau format de données, de sauvegardes et d’archives. Les anciens profils et exports ne sont pas convertis ni importables dans ce socle. Lorsqu’un ancien stockage est détecté, le programme demande confirmation avant de créer un espace vierge ; les anciens fichiers restent conservés. Gardez l’ancienne installation et ses sauvegardes pour consulter vos anciennes données. Une ancienne version ne doit pas ouvrir une base plus récente.

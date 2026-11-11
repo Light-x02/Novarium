@@ -57,9 +57,18 @@ Films et séries : **TMDB** et **IMDb via OMDb**, service indépendant de l’AP
 
 NOVARIUM utilise l’API TMDB mais n’est ni approuvé ni certifié par TMDB. Les marques, notes, textes et illustrations de tiers restent soumis à leurs droits et conditions. Voir les [crédits et composants tiers](TIERS.md).
 
-## Besoin d’aide ?
+## Participer et obtenir de l’aide
 
-[Ouvrir un signalement](https://github.com/Light-x02/Novarium/issues/new) en précisant la version de NOVARIUM, la version de Windows et les étapes permettant de reproduire le problème. Joindre uniquement des captures anonymisées. **Ne publiez jamais de clé API, de jeton, de base de données, de sauvegarde ou de livre numérique.**
+- **Une idée ou une amélioration ?** Partagez-la dans [Idées et suggestions](https://github.com/Light-x02/Novarium/discussions/categories/id%C3%A9es-et-suggestions).
+- **Une question sur l’application ?** Retrouvez la communauté dans [Questions et aide](https://github.com/Light-x02/Novarium/discussions/categories/questions-et-aide).
+- **Un bug à signaler ?** [Ouvrez un signalement](https://github.com/Light-x02/Novarium/issues/new).
+
+Pour signaler un bug, indiquez la version de NOVARIUM, la version de Windows et les étapes permettant de reproduire le problème. Joignez uniquement des captures anonymisées. **Ne publiez jamais de clé API, de jeton, de base de données, de sauvegarde ou de livre numérique.**
+
+## Soutenir NOVARIUM
+
+NOVARIUM est gratuit. Si vous souhaitez soutenir son développement, vous pouvez [faire un don sur Ko-fi](https://ko-fi.com/light_x02). Ce soutien est entièrement facultatif.
+
 
 ---
 
