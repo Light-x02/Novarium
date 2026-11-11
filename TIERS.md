@@ -4,7 +4,7 @@ NOVARIUM est propriétaire et gratuit. Il utilise des composants tiers qui conse
 
 L’inventaire précise les versions et licences des composants utilisés, notamment React, Motion, Lucide, Tailwind CSS, FastAPI, SQLAlchemy, Alembic, pywebview, Python, Pillow et pypdf. PyInstaller comporte une exception permettant de distribuer les applications assemblées sous leur propre licence ; cela ne modifie pas les obligations propres aux dépendances.
 
-Les notices Python et Pillow couvrent également leurs composants natifs déclarés. Certifi est fourni sans modification sous MPL-2.0 ; les sources de la version précise figurant dans l’inventaire sont disponibles sur [PyPI](https://pypi.org/project/certifi/). Le SDK WebView2 conserve la notice Microsoft jointe ; le Runtime Evergreen est fourni séparément par Microsoft.
+Les notices Python et Pillow couvrent également leurs composants natifs déclarés. Certifi est fourni sans modification sous MPL-2.0 ; les sources de la version précise figurant dans l’inventaire sont disponibles sur [PyPI](https://pypi.org/project/certifi/). Le SDK WebView2 conserve la notice Microsoft jointe ; le Runtime Evergreen est fourni séparément par Microsoft. 
 
 ## Analyse des vidéos locales
 
