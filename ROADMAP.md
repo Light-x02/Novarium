@@ -18,6 +18,18 @@ Ajouter de nouvelles sources d’importation de collections, en complément de l
 
 ---
 
+## 💡 En réflexion
+
+---
+
+## ✅ Disponible
+
+### 🎬 Vos vidéos du PC dans NOVARIUM
+
+Importer vos films et séries depuis les dossiers de votre PC, retrouver leurs informations et lancer leur lecture depuis NOVARIUM dans votre lecteur habituel.
+
+---
+
 ## 💬 Construisons la suite ensemble
 
 Une fonctionnalité vous manque ? Une amélioration vous simplifierait la vie ? Partagez votre proposition dans [Idées et suggestions](https://github.com/Light-x02/Novarium/discussions/categories/id%C3%A9es-et-suggestions).
