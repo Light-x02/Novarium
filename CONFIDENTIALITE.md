@@ -4,7 +4,7 @@ NOVARIUM est une application locale. Aucun compte NOVARIUM distant n’est néce
 
 ## Connexions externes
 
-- Les recherches et imports de métadonnées transmettent les titres, identifiants ou critères nécessaires aux fournisseurs sélectionnés : TMDB, OMDb, IGDB/Twitch, Google Books ou Open Library.
+- Les recherches et imports de métadonnées transmettent les titres, identifiants ou critères nécessaires aux fournisseurs sélectionnés : TMDB, OMDb, IGDB/Twitch, Google Books ou Open Library. 
 - La traduction facultative transmet à DeepL le texte public sélectionné à traduire, pas vos avis personnels.
 - Certains portraits d’acteurs et affiches de filmographie sont affichés depuis des URL de fournisseurs. L’affichage peut donc entraîner une connexion à ces hébergeurs. Les portraits des acteurs favoris sont conservés localement. Les affiches et couvertures des œuvres sont locales ; les nouvelles images d’épisodes utilisent les URL des fournisseurs.
 - La recherche de mises à jour contacte GitHub ; elle est activée par défaut et désactivable. Le téléchargement et l’installation requièrent votre accord.

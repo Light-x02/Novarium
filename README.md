@@ -72,4 +72,4 @@ NOVARIUM est gratuit. Si vous souhaitez soutenir son développement, vous pouvez
 
 ---
 
-NOVARIUM · Créé par **Light_x02** · Logiciel propriétaire gratuit. Ce dépôt héberge la présentation et les téléchargements de l’application.
+NOVARIUM · Créé par **Light_x02** · Logiciel propriétaire gratuit. Ce dépôt héberge la présentation et les téléchargements de l’application. 
