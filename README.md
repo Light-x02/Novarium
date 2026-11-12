@@ -2,7 +2,7 @@
 
 <h1 align="center">NOVARIUM</h1>
 <p align="center"><strong>Explore Your Worlds</strong><br>Vos films, vos séries, vos jeux et vos lectures. Un même univers.</p>
-<p align="center"><a href="https://github.com/Light-x02/Novarium/releases/latest">Télécharger la version stable</a> · <a href="INSTALLATION.md">Installer NOVARIUM</a> · <a href="https://github.com/Light-x02/Novarium/issues">Signaler un problème</a> · <a href="https://ko-fi.com/light_x02">Faire un don</a></p>
+<p align="center"><a href="https://github.com/Light-x02/Novarium/releases/latest">Télécharger la version stable</a> · <a href="INSTALLATION.md">Installer NOVARIUM</a> · <a href="ROADMAP.md">Feuille de route</a> · <a href="https://github.com/Light-x02/Novarium/issues">Signaler un problème</a> · <a href="https://ko-fi.com/light_x02">Faire un don</a></p>
 
 ---
 
