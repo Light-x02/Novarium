@@ -10,8 +10,6 @@
 
 ![Accueil de NOVARIUM : collections du moment, œuvre à la une et favoris](assets/novarium-home.png)
 
-**Version actuelle : [0.46.0](https://github.com/Light-x02/Novarium/releases/tag/v0.46.0).**
-
 ## Quatre bibliothèques, toutes vos histoires
 
 | Votre univers | Ce que vous pouvez organiser |
