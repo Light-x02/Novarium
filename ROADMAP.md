@@ -22,7 +22,7 @@ Ajouter de nouvelles sources d’importation de collections, en complément de l
 
 ---
 
-## ✅ Disponible
+## ✅ Disponible (ajouté récemment)
 
 ### 🎬 Vos vidéos du PC dans NOVARIUM
 
