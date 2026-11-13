@@ -28,6 +28,12 @@ Ajouter de nouvelles sources d’importation de collections, en complément de l
 
 Importer vos films et séries depuis les dossiers de votre PC, retrouver leurs informations et lancer leur lecture depuis NOVARIUM dans votre lecteur habituel.
 
+### 📊 Statistiques films et séries
+
+Consulter votre activité, votre suivi de visionnage, vos genres et vos notes dans des onglets et graphiques dédiés, depuis la version 0.49.0.
+
+[Découvrir les nouveautés de la 0.49.0 →](https://github.com/Light-x02/Novarium/releases/tag/v0.49.0)
+
 ---
 
 ## 💬 Construisons la suite ensemble

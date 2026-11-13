@@ -10,6 +10,21 @@
 
 ![Accueil de NOVARIUM : collections du moment, œuvre à la une et favoris](assets/novarium-home.png)
 
+**Version actuelle : [0.49.0](https://github.com/Light-x02/Novarium/releases/tag/v0.49.0).**
+
+## Les nouveautés de la 0.49.0
+
+- **Des fiches plus claires** : présentation, distribution, informations, sagas, saisons et critiques réparties en onglets selon l’œuvre.
+- **Vos notes à portée de clic** : notes IMDb et TMDB, note personnelle sur 10 et choix de celle affichée sur les affiches.
+- **Des statistiques pour les films et séries** : vue d’ensemble, visionnage, goûts et notes, activité, avec graphiques et filtres.
+- **Un démarrage accompagné** : guide de bienvenue pour configurer les sources de métadonnées, consultable à nouveau depuis les paramètres.
+- **Des recherches mieux organisées** : tris avec inversion, classement par âge et choix d’afficher uniquement les abonnements ou de masquer les offres d’achat et de location.
+- **Une corbeille commune** aux œuvres et collections, avec une suppression automatique facultative, désactivée par défaut.
+- **Des transferts plus pratiques** : retrouvez ou annulez un export préparé et choisissez d’inclure les liens vers vos vidéos locales.
+- **Des imports plus fiables** : meilleure gestion des titres homonymes, des séries incomplètes, des images et des grandes bibliothèques.
+
+[Consulter toutes les nouveautés de cette version →](https://github.com/Light-x02/Novarium/releases/tag/v0.49.0)
+
 ## Quatre bibliothèques, toutes vos histoires
 
 | Votre univers | Ce que vous pouvez organiser |
@@ -24,10 +39,10 @@
 - **Accueil personnalisable** : œuvres à la une, sections réorganisables et collections du moment.
 - **Métadonnées et illustrations** : recherche et prévisualisation avant import, choix d’images, recadrage et modifications personnelles.
 - **Profils distincts** : collections, favoris et suivis séparés, avatar et préférences propres à chaque profil. Duplication, gestion du stockage et suppression avec confirmation.
-- **Thèmes et décors** : accents colorés, transparence, effets, animations réglables et fonds personnalisables.
+- **Décor personnalisable** : choisissez et recadrez le fond de l’application. L’interface utilise le bleu électrique ; la personnalisation des thèmes est temporairement retirée.
 - **Sauvegardes et transferts** : sauvegardes vérifiées, restauration avec confirmation, export de profils et de collections.
-- **Imports** : ajout manuel, listes IMDb et dossiers vidéo. Sélection groupée, correction des titres, correspondances confirmées et collections facultatives à partir des dossiers.
-- **Vidéos sur votre PC** : retrouvez vos films et séries, leur qualité vidéo et leurs informations, puis lancez leur lecture dans votre lecteur habituel.
+- **Imports** : ajout manuel, listes IMDb et dossiers vidéo. Imports films et séries séparés, sélection groupée, correction des titres, choix des correspondances et création facultative d’une collection.
+- **Vidéos sur votre PC** : retrouvez vos films et séries, leur qualité vidéo et leurs informations, puis lancez leur lecture dans votre lecteur habituel. Actualisez vos dossiers et gérez les associations depuis NOVARIUM, sans déplacer les fichiers.
 - **Mises à jour intégrées** : recherche au démarrage désactivable et recherche manuelle. Chaque installation demande votre accord et conserve le programme précédent.
 
 ## Sur votre ordinateur
@@ -65,7 +80,7 @@ Pour signaler un bug, indiquez la version de NOVARIUM, la version de Windows et 
 
 ## Soutenir NOVARIUM
 
-NOVARIUM est gratuit. Si vous souhaitez soutenir son développement, vous pouvez [faire un don sur Ko-fi](https://ko-fi.com/light_x02). Ce soutien est entièrement facultatif.
+NOVARIUM est gratuit. Si vous souhaitez soutenir son développement, vous pouvez [faire un don sur Ko-fi](https://ko-fi.com/light_x02), ou cliquer sur **Soutenir NOVARIUM** en bas à droite de l’application. Ce soutien est entièrement facultatif.
 
 
 ---

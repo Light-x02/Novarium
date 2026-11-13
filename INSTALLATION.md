@@ -1,4 +1,4 @@
-# Installer NOVARIUM
+# Installer NOVARIUM 0.49.0
 
 ## Configuration Windows
 
@@ -16,7 +16,7 @@ Ces composants sont pris en charge sous Windows 10 et Windows 11 selon la [docum
 
 ## Télécharger et extraire
 
-Télécharger uniquement l’archive versionnée depuis les [Releases officielles](https://github.com/Light-x02/Novarium/releases). L’empreinte SHA-256 indiquée par GitHub pour le fichier joint permet de vérifier le téléchargement.
+Télécharger **[NOVARIUM-v0.49.0.zip](https://github.com/Light-x02/Novarium/releases/download/v0.49.0/NOVARIUM-v0.49.0.zip)** depuis la release officielle. L’empreinte SHA-256 permet de vérifier le téléchargement.
 
 Extraire complètement l’archive. Dans le dossier `NOVARIUM`, conserver ensemble `NOVARIUM.exe`, `_internal` et toutes les ressources fournies. Le programme utilise une distribution en dossier, pas un EXE isolé.
 
@@ -28,11 +28,11 @@ Ne pas supprimer les fichiers annexes du dossier du programme. Si une instance e
 
 ## Profils et données
 
-Choisir ou créer un profil. Les données se trouvent par défaut sous `%LOCALAPPDATA%\NOVARIUM\`, séparées du dossier du programme. L’emplacement de la base et les sauvegardes se gèrent dans **Paramètres → Données et sauvegardes**. Ne supprimer aucun dossier de données lors d’une mise à jour.
+Au premier lancement, créez votre profil. Un guide de bienvenue vous accompagne pour configurer les sources de métadonnées ; vous pouvez passer cette étape et y revenir plus tard. Les données se trouvent par défaut sous `%LOCALAPPDATA%\NOVARIUM\`, séparées du dossier du programme. L’emplacement de la base et les sauvegardes se gèrent dans **Paramètres → Données et sauvegardes**. Ne supprimer aucun dossier de données lors d’une mise à jour.
 
 Le crayon d’un profil permet de le modifier, de le dupliquer ou de le supprimer. La suppression demande une confirmation explicite et le nom exact du profil. Les sauvegardes et fichiers externes sont conservés.
 
-Pour récupérer des métadonnées, configurer les services souhaités dans les paramètres. Les clés restent locales ; aucune clé de l’éditeur n’est distribuée. Certains services imposent une inscription, un quota ou un abonnement distinct.
+Pour récupérer des métadonnées, configurez les services souhaités dans **Paramètres → Métadonnées et services**. Le bouton **Guide de bienvenue et clés API** permet de retrouver les instructions. Les clés restent locales ; aucune clé de l’éditeur n’est distribuée. Certains services imposent une inscription, un quota ou un abonnement distinct.
 
 ## Mettre à jour
 
@@ -50,14 +50,29 @@ La version proposée est une archive à extraire.
 
 Pour une question d’installation ou d’utilisation, consultez [Questions et aide](https://github.com/Light-x02/Novarium/discussions/categories/questions-et-aide). Pour proposer une amélioration, utilisez [Idées et suggestions](https://github.com/Light-x02/Novarium/discussions/categories/id%C3%A9es-et-suggestions). Les [Issues](https://github.com/Light-x02/Novarium/issues) permettent de signaler les bugs. Ne partagez aucun identifiant secret ni fichier personnel.
 
-## Nouveau socle de données en 0.46.0
+## Sauvegarder et transférer
 
-La 0.46.0 utilise un nouveau format de données, de sauvegardes et d’archives. Les anciens profils et exports ne sont pas convertis ni importables dans ce socle. Lorsqu’un ancien stockage est détecté, le programme demande confirmation avant de créer un espace vierge ; les anciens fichiers restent conservés. Gardez l’ancienne installation et ses sauvegardes pour consulter vos anciennes données. Une ancienne version ne doit pas ouvrir une base plus récente.
+Dans **Paramètres → Données et sauvegardes**, vous pouvez planifier des sauvegardes, restaurer une copie et exporter un profil complet ou des collections.
+
+- **Sauvegardes automatiques** : les liens vers les vidéos et leurs associations aux films et épisodes sont conservés.
+- **Export d’un profil complet** : l’option **Inclure les liens des vidéos locales** est cochée par défaut.
+- **Export de collections** : cette option est décochée par défaut, pour faciliter le partage sans vos chemins de fichiers.
+- **Aucun fichier vidéo n’est inclus** : les liens fonctionnent si les vidéos sont accessibles au même emplacement. Sur un autre PC, vous pouvez associer vos propres fichiers depuis **Modifier la fiche**.
+
+Un export préparé reste accessible dans **Importer / exporter** après un changement de page. Vous pouvez le télécharger ou l’annuler.
+
+## Versions et compatibilité des données
+
+La mise à jour de la 0.48.0 vers la 0.49.0 conserve les profils, les réglages, les bibliothèques et les associations aux vidéos locales. Conservez vos sauvegardes avant toute mise à jour.
+
+Les anciennes éditions de développement, antérieures au socle public 0.46.0, utilisent un autre format. Elles ne doivent pas ouvrir une bibliothèque récente et leurs anciens profils ne sont pas convertis. Si un nouveau départ est proposé pour ces éditions, les anciens fichiers sont conservés séparément.
 
 L’analyse de la qualité vidéo est intégrée : aucun outil supplémentaire n’est à installer. Conservez tous les fichiers fournis avec le programme.
 
-SHA-256 de `NOVARIUM-v0.46.0.zip` :
+## Vérifier le téléchargement
+
+SHA-256 de **`NOVARIUM-v0.49.0.zip`** :
 
 ```text
-e3109cd8823f8ef1e4973c539e174222c6269bb8d9bfd509c289e7cfa694520d
+4d01c15fa9d8eeec1479d6c0c6787fd6695ef2b2ccc88968f237777ba6968d08
 ```

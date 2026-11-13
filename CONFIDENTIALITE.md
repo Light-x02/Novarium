@@ -9,6 +9,7 @@ NOVARIUM est une application locale. Aucun compte NOVARIUM distant n’est néce
 - Certains portraits d’acteurs et affiches de filmographie sont affichés depuis des URL de fournisseurs. L’affichage peut donc entraîner une connexion à ces hébergeurs. Les portraits des acteurs favoris sont conservés localement. Les affiches et couvertures des œuvres sont locales ; les nouvelles images d’épisodes utilisent les URL des fournisseurs.
 - La recherche de mises à jour contacte GitHub ; elle est activée par défaut et désactivable. Le téléchargement et l’installation requièrent votre accord.
 - Une bande-annonce YouTube est chargée après clic. Les services externes appliquent leurs propres règles de confidentialité, conditions et limites.
+- Le lien **Soutenir NOVARIUM** ouvre Ko-fi dans votre navigateur uniquement après votre clic. Les conditions de confidentialité de Ko-fi s’appliquent sur ce site ; aucun paiement n’est traité dans NOVARIUM.
 - WebView2 et Windows peuvent posséder leurs propres mécanismes de mise à jour, distincts de NOVARIUM.
 
 Les fournisseurs et hébergeurs peuvent recevoir votre adresse IP et les informations techniques de la connexion. Les données déjà sauvegardées localement restent consultables sans Internet, sauf les images uniquement distantes.
@@ -17,13 +18,17 @@ Les fournisseurs et hébergeurs peuvent recevoir votre adresse IP et les informa
 
 Les identifiants API sont configurés localement et ne sont pas embarqués dans les téléchargements. Les téléchargements et mises à jour publics ne demandent pas de jeton GitHub. Les paramètres API restent dans le stockage local de NOVARIUM ; n’accordez pas l’accès à vos dossiers de données à une personne non autorisée.
 
-Les sauvegardes et exports de profil peuvent inclure des informations personnelles. Les clés API sont exclues par défaut, mais leur inclusion peut être demandée explicitement pour certains exports. Les fichiers ebooks ne sont copiés que si l’option complète correspondante est choisie. Conservez ces archives dans un emplacement privé.
+Les sauvegardes et exports peuvent inclure des informations personnelles. Les clés API sont exclues par défaut ; leur inclusion peut être demandée explicitement lorsque l’option est proposée. Les fichiers ebooks ne sont copiés que si l’option correspondante est choisie. Conservez ces archives dans un emplacement privé.
+
+Les sauvegardes automatiques conservent les chemins des vidéos locales et leurs associations. Pour les exports, la case **Inclure les liens des vidéos locales** est cochée par défaut pour le profil complet et décochée pour les collections. Les vidéos elles-mêmes ne sont jamais copiées dans l’archive. Si vous incluez les liens, leurs chemins peuvent révéler des noms de dossiers : vérifiez ce choix avant de partager une collection. Désactiver cette option n’anonymise pas les autres informations de l’archive, comme vos notes et les noms de collections.
 
 Le serveur interne de l’application se limite à la boucle locale et n’est pas exposé au réseau local. La séparation des profils n’est pas une authentification destinée à protéger des données contre un autre utilisateur ayant accès au même compte Windows.
 
 ## Suppression et réinitialisation des profils
 
 La suppression d’un profil retire définitivement ses données après confirmation. Les sauvegardes et fichiers externes sont conservés. Des données de récupération et journaux techniques peuvent être conservés pour terminer une opération interrompue. La réinitialisation et la suppression sont des opérations distinctes.
+
+La corbeille des œuvres et collections peut être vidée automatiquement après le délai choisi dans ses paramètres. Cette option est désactivée par défaut. Elle supprime les éléments concernés de la bibliothèque, sans supprimer les vidéos externes de vos dossiers.
 
 ## Signalements
 
