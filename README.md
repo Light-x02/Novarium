@@ -1,86 +1,174 @@
 <p align="center"><img src="assets/novarium.svg" width="88" alt="Logo NOVARIUM"></p>
 
 <h1 align="center">NOVARIUM</h1>
-<p align="center"><strong>Explore Your Worlds</strong><br>Vos films, vos séries, vos jeux et vos lectures. Un même univers.</p>
-<p align="center"><a href="https://github.com/Light-x02/Novarium/releases/latest">Télécharger la version stable</a> · <a href="INSTALLATION.md">Installer NOVARIUM</a> · <a href="ROADMAP.md">Feuille de route</a> · <a href="https://github.com/Light-x02/Novarium/issues">Signaler un problème</a> · <a href="https://ko-fi.com/light_x02">Faire un don</a></p>
+<p align="center"><strong>Explore Your Worlds</strong><br>Votre bibliothèque de films, séries, jeux vidéo et romans sur Windows.</p>
+<p align="center"><a href="https://github.com/Light-x02/Novarium/releases/latest">Télécharger NOVARIUM</a> · <a href="#tutoriels-en-images">Tutoriels en images</a> · <a href="INSTALLATION.md">Guide d’installation</a> · <a href="ROADMAP.md">Feuille de route</a></p>
 
----
+NOVARIUM est une application Windows gratuite et propriétaire. Organisez vos œuvres, retrouvez votre progression et partagez une collection ou sauvegardez un profil. Vos données sont conservées sur votre ordinateur.
 
-**NOVARIUM est une application Windows gratuite et propriétaire pour organiser vos collections personnelles.** Une interface immersive, des profils indépendants et des données conservées sur votre ordinateur.
+![L’accueil de NOVARIUM avec Squadron 42 à la une, les collections épinglées et les favoris](assets/novarium-home.png)
 
-![Accueil de NOVARIUM : collections du moment, œuvre à la une et favoris](assets/novarium-home.png)
+**Version stable [0.50.0](https://github.com/Light-x02/Novarium/releases/tag/v0.50.0)** · **Windows 11 x64 testé** · [Prérequis et compatibilité](INSTALLATION.md#configuration-windows)
 
-**La version actuelle est la [0.50.0](https://github.com/Light-x02/Novarium/releases/tag/v0.50.0).**
+## Pour commencer
 
-## Les nouveautés de la 0.50.0
+1. Téléchargez le ZIP depuis les [versions officielles](https://github.com/Light-x02/Novarium/releases/latest) et extrayez-le entièrement dans un dossier accessible en écriture.
+2. Ouvrez `NOVARIUM.exe` depuis le dossier extrait. Gardez `_internal` et les autres ressources à côté du programme.
+3. Créez un profil. Le **Guide de bienvenue et clés API** vous accompagne si vous souhaitez configurer les fournisseurs de métadonnées.
 
-- **Bibliothèque Steam.** Importez vos jeux, collections et favoris. Vous pouvez aussi importer votre liste de souhaits avec les prix et promotions disponibles. Le coffre Windows protège la connexion, avec une protection TPM facultative.
-- **Fiches et statistiques de jeux.** Retrouvez les DLC, succès, heures de jeu et captures. Suivez vos installations Steam et consultez l’historique du temps de jeu par semaine ou par mois, à partir des synchronisations.
-- **Recherche et accueil.** Enregistrez vos recherches et utilisez les filtres avancés de chaque bibliothèque. Choisissez les œuvres à la une, activez le défilement aléatoire et épinglez vos collections.
-- **Films et séries.** La synchronisation complète les informations manquantes et ajoute les nouvelles saisons et les nouveaux épisodes en conservant votre suivi. Les affiches peuvent indiquer votre plateforme de streaming favorite lorsqu’elle propose l’œuvre.
-- **Paramètres et sauvegardes.** Retrouvez une navigation latérale, des écrans d’import et de transfert remaniés et une analyse du stockage plus détaillée.
-- **Mises à jour signées.** La 0.50.0 embarque la clé publique utilisée pour vérifier les prochaines mises à jour. Un résumé s’affiche au premier lancement après une mise à jour.
+Vous utilisez déjà NOVARIUM ? Ouvrez **Paramètres → Mises à jour** pour rechercher la dernière version. Le [guide d’installation](INSTALLATION.md#mettre-à-jour) détaille le téléchargement, la migration et la vérification de signature.
 
-[Consulter toutes les nouveautés de cette version →](https://github.com/Light-x02/Novarium/releases/tag/v0.50.0)
+## Tutoriels en images
 
-## Quatre bibliothèques, toutes vos histoires
+Cliquez sur un titre pour ouvrir ou refermer le tutoriel. Les captures montrent la bibliothèque Expérimental utilisée pour tester NOVARIUM.
 
-| Votre univers | Ce que vous pouvez organiser |
+### Films, séries et collections
+
+<details>
+<summary><strong>Ajouter une œuvre et choisir ses informations</strong></summary>
+
+1. Cliquez sur **Ajouter une œuvre** depuis l’accueil ou une bibliothèque.
+2. Choisissez **Film**, **Série**, **Jeu vidéo** ou **Roman**, puis recherchez le titre. Vous pouvez aussi utiliser **Ajout manuel**.
+3. Ouvrez le bon résultat, vérifiez le titre, l’année et les informations proposées, puis enregistrez la fiche. Pour une série, les saisons et épisodes sont également importés lorsque leur récupération est activée et disponible.
+
+![La recherche d’un film dans la fenêtre Ajouter une œuvre](assets/tutoriels/ajouter-une-oeuvre.webp)
+
+</details>
+
+<details>
+<summary><strong>Suivre une série et retrouver ses plateformes de streaming</strong></summary>
+
+1. Ouvrez une fiche dans **Séries**, puis l’onglet **Saisons et épisodes**. Choisissez une saison et indiquez les épisodes vus pour suivre votre progression.
+2. Revenez dans **Présentation** pour consulter le synopsis, les notes et les disponibilités par plateforme lorsqu’elles sont fournies.
+3. Dans **Paramètres → Services de streaming**, choisissez vos plateformes favorites et leur ordre. L’affiche privilégie la première plateforme favorite qui propose l’œuvre.
+
+![La fiche de Stargate SG-1 avec les onglets, les notes et les offres de streaming](assets/tutoriels/fiche-serie.webp)
+
+</details>
+
+<details>
+<summary><strong>Organiser ses collections et enregistrer une recherche</strong></summary>
+
+1. Dans **Mes collections**, créez une collection. Depuis la fiche d’une œuvre, cliquez sur **Ajouter à la collection** pour l’y ranger.
+2. Dans une bibliothèque, ouvrez **Recherche et tri**. Combinez le titre, les filtres et le tri qui vous intéressent.
+3. Cliquez sur **Enregistrer cette recherche** pour retrouver ces critères dans **Recherches enregistrées**. Le résultat évolue avec la bibliothèque.
+
+![Les commandes de recherche, de tri et de recherche enregistrée dans la bibliothèque Films](assets/tutoriels/recherche-et-tri.webp)
+
+</details>
+
+<details>
+<summary><strong>Importer les films et séries d’un dossier du PC</strong></summary>
+
+1. Ouvrez **Paramètres → Importation → Films et séries**, puis **Importer des dossiers vidéo**.
+2. Choisissez la catégorie **Films** ou **Séries**, utilisez **Ajouter un dossier**, puis lancez l’analyse.
+3. Contrôlez les titres trouvés et les correspondances proposées avant de valider. Une fois le fichier associé, vous pouvez le lire depuis sa fiche dans votre lecteur Windows.
+
+NOVARIUM conserve l’association avec la vidéo à son emplacement d’origine. Utilisez **Importer une liste IMDb** dans le même onglet si vous partez d’un fichier CSV IMDb.
+
+![L’onglet Films et séries des paramètres d’importation, avec les options pour les dossiers vidéo et les listes IMDb](assets/tutoriels/import-video.webp)
+
+</details>
+
+### Jeux vidéo et Steam
+
+<details>
+<summary><strong>Connecter Steam et importer sa bibliothèque</strong></summary>
+
+1. Ouvrez **Paramètres → Importation → Jeux vidéo → Importer Steam**. **Comprendre la connexion Steam** détaille les données importées et les protections disponibles.
+2. Cliquez sur **Connecter Steam**. Choisissez la protection de la session, puis connectez-vous via le **QR code Steam Guard** ou votre identifiant et votre mot de passe. Le coffre Windows protège la session, avec un renfort TPM facultatif sur un PC compatible.
+3. Choisissez vos options d’import, dont la **liste de souhaits** si vous la voulez, puis lancez **Importer ma bibliothèque**. Utilisez **Synchroniser** pour les actualisations suivantes.
+
+Les collections **Favoris Steam** et **Liste de souhaits Steam** suivent vos choix dans Steam.
+
+![Le guide intégré Comprendre la connexion Steam et les données que Novarium peut importer](assets/tutoriels/connexion-steam.webp)
+
+</details>
+
+<details>
+<summary><strong>Explorer la fiche d’un jeu, ses médias et ses DLC</strong></summary>
+
+1. Dans **Jeux vidéo**, ouvrez une fiche. La bannière rassemble les commandes disponibles selon l’accès au jeu et son installation.
+2. Parcourez **Succès**, **Mon activité**, **Médias** et **DLC**. Les informations disponibles dépendent du jeu et de la dernière synchronisation.
+3. Pour une extension, choisissez **DLC** dans la bibliothèque. La fiche indique la possession et, quand Steam le fournit, le jeu de base requis. Le jeu de base sert à lancer le contenu.
+
+![La fiche d’A Short Hike avec sa bannière, les évaluations Steam et les onglets du jeu](assets/tutoriels/fiche-jeu.webp)
+
+</details>
+
+<details>
+<summary><strong>Consulter ses statistiques de jeu et de visionnage</strong></summary>
+
+1. Cliquez sur l’icône **Statistiques personnelles** dans la barre du haut.
+2. Ouvrez **Jeux vidéo** pour consulter **Vue d’ensemble**, **Temps de jeu**, **Succès** et **Bibliothèque**. Les relevés hebdomadaires et mensuels se constituent au fil des synchronisations Steam.
+3. Dans les statistiques **Films et séries**, retrouvez votre suivi de visionnage, vos goûts, vos notes et votre activité.
+
+![Le tableau de bord des statistiques de jeux, avec les filtres et les onglets dédiés au temps de jeu, aux succès et à la bibliothèque](assets/tutoriels/statistiques-jeux.webp)
+
+</details>
+
+### Accueil et données
+
+<details>
+<summary><strong>Personnaliser l’accueil et les œuvres à la une</strong></summary>
+
+1. Cliquez sur **Personnaliser l’accueil** pour choisir les sections visibles et organiser vos collections épinglées.
+2. Dans la bannière, ouvrez **Choisir la une**. Sélectionnez les œuvres, une bibliothèque ou les œuvres d’une collection.
+3. Activez le mode aléatoire pour faire défiler la sélection. Une même œuvre revient après que les autres ont défilé.
+
+![La fenêtre Personnaliser l’accueil avec les réglages À la une et l’aperçu en direct](assets/tutoriels/personnaliser-accueil.webp)
+
+</details>
+
+<details>
+<summary><strong>Sauvegarder un profil ou exporter une collection</strong></summary>
+
+1. Ouvrez **Paramètres → Données et sauvegardes → Créer et planifier**. Choisissez le contenu de la sauvegarde, puis cliquez sur **Sauvegarder maintenant** ou configurez la planification.
+2. Retrouvez vos copies dans **Sauvegardes disponibles**. Cet écran permet de vérifier une copie ou de lancer sa restauration.
+3. Pour changer de PC ou transférer une sélection, ouvrez **Importer / exporter** et choisissez **Profil complet** ou **Une ou plusieurs collections**. L’option des liens vidéo conserve les associations. Les fichiers vidéo restent sur le disque d’origine.
+
+![L’onglet Créer et planifier, avec les réglages de sauvegarde manuelle et automatique](assets/tutoriels/sauvegardes.webp)
+
+</details>
+
+## Ce que NOVARIUM organise
+
+| Bibliothèque | Fonctions principales |
 | --- | --- |
-| **Films et séries** | Affiches, synopsis, distribution, saisons et épisodes, notes, favoris, statuts et suivi de visionnage. |
-| **Jeux vidéo** | Fiches de jeux et de DLC, suivi manuel ou synchronisation Steam, installations, succès et statistiques. |
-| **Romans** | Livres papier et numériques, éditions, sagas, tomes et progression de lecture. L’import de fichiers ebooks est suspendu pendant la préparation de la refonte. |
-| **Collections** | Sous-collections, recherche, filtres, tri, ordre personnel et sélections mises en avant sur l’accueil. |
+| **Films** | Affiches, synopsis, distribution, notes, favoris, suivi, fichiers vidéo locaux et offres de streaming. |
+| **Séries** | Saisons et épisodes, progression, distribution, notes et suivi des nouvelles saisons. |
+| **Jeux vidéo** | Jeux et DLC, métadonnées Steam, synchronisation facultative, installations, captures, succès et statistiques. |
+| **Romans** | Livres papier et numériques, éditions, sagas, tomes et progression. L’import de fichiers ebooks est suspendu pendant la préparation de la refonte. |
 
-## Un espace qui vous ressemble
+Les profils conservent chacun leurs collections, favoris et préférences. Une fois enregistrée, la bibliothèque est consultable hors ligne. La recherche de métadonnées, les visuels distants, les mises à jour et les synchronisations utilisent Internet. [Confidentialité](CONFIDENTIALITE.md) · [Conditions d’utilisation](MENTIONS_LEGALES.md)
 
-- **Accueil personnalisable** : œuvres à la une, sections réorganisables et collections du moment.
-- **Métadonnées et illustrations** : recherche et prévisualisation avant import, choix d’images, recadrage et modifications personnelles.
-- **Profils distincts** : collections, favoris et suivis séparés, avatar et préférences propres à chaque profil. Duplication, gestion du stockage et suppression avec confirmation.
-- **Décor personnalisable** : choisissez et recadrez le fond de l’application. L’interface utilise le bleu électrique ; la personnalisation des thèmes est temporairement retirée.
-- **Sauvegardes et transferts** : sauvegardes vérifiées, restauration avec confirmation, export de profils et de collections.
-- **Imports** : ajout manuel, listes IMDb, dossiers vidéo et bibliothèque Steam. L’import de dossiers vidéo permet de sélectionner les fichiers en groupe, corriger les titres, choisir les correspondances et créer une collection.
-- **Vidéos sur votre PC** : retrouvez vos films et séries, leur qualité vidéo et leurs informations, puis lancez leur lecture dans votre lecteur habituel. Actualisez vos dossiers et gérez les associations depuis NOVARIUM, sans déplacer les fichiers.
-- **Mises à jour intégrées** : recherche au démarrage désactivable et recherche manuelle. Chaque installation demande votre accord et conserve le programme précédent.
+<details>
+<summary><strong>Voir les nouveautés de la 0.50.0</strong></summary>
 
-## Sur votre ordinateur
+- Import de la bibliothèque Steam, des favoris et de la liste de souhaits, avec prix et promotions disponibles.
+- Fiches de jeux et DLC, succès, installations et historique du temps de jeu.
+- Recherches enregistrées dans les bibliothèques et nouvelles options de personnalisation de l’accueil.
+- Synchronisation des films et séries, avec ajout des nouvelles saisons et des nouveaux épisodes et conservation du suivi.
+- Paramètres, import et sauvegardes remaniés. La clé publique intégrée à la 0.50.0 protège les prochaines mises à jour par une vérification de signature.
 
-La bibliothèque déjà enregistrée reste consultable hors ligne. Les recherches de métadonnées, certaines images distantes et la recherche de mises à jour utilisent Internet. Les données personnelles restent dans un dossier distinct du programme, par défaut `%LOCALAPPDATA%\NOVARIUM\`.
+[Notes complètes de la 0.50.0](https://github.com/Light-x02/Novarium/releases/tag/v0.50.0)
 
-Les vidéos restent dans vos dossiers : NOVARIUM ne les déplace ni ne les supprime. Leur lecture utilise votre lecteur Windows, uniquement après votre clic. Les bandes-annonces YouTube ne sont chargées qu’après votre action.
-
-Consulter la [confidentialité](CONFIDENTIALITE.md) et les [conditions d’utilisation](MENTIONS_LEGALES.md).
-
-## Télécharger et démarrer
-
-1. Télécharger **`NOVARIUM-vX.Y.Z.zip`** depuis les [versions officielles](https://github.com/Light-x02/Novarium/releases).
-2. Extraire **tout** le contenu de l’archive dans un dossier accessible en écriture.
-3. Ouvrir **`NOVARIUM/NOVARIUM.exe`** : NOVARIUM démarre dans sa fenêtre Windows.
-4. Conserver le dossier **`_internal`** et toutes les ressources à côté de l’EXE.
-
-**Windows 11 x64 : version testée. Windows 10 22H2 x64 : compatibilité prévue, pas encore vérifiée sur ce système.** Microsoft Edge WebView2 Runtime et .NET Framework 4.8 ou ultérieur doivent être présents. Ils sont généralement déjà installés ; les [instructions détaillées](INSTALLATION.md#composants-requis) indiquent quoi installer s’ils manquent. La version actuellement proposée est une archive complète à extraire.
-
-[Instructions détaillées et dépannage →](INSTALLATION.md)
+</details>
 
 ## Sources et crédits
 
-Films et séries via **TMDB** et **IMDb via OMDb**, service indépendant de l’API officielle IMDb. Pour les jeux, **Steam** est la source proposée par défaut, avec **IGDB** en recherche complémentaire. Les livres utilisent **Google Books** et **Open Library**. La traduction via **DeepL** est facultative. Certains fournisseurs nécessitent vos propres identifiants API et appliquent leurs limites et conditions. Les disponibilités en France reposent sur les données TMDB/JustWatch lorsqu’elles existent.
+**Films et séries** via TMDB et IMDb via OMDb. **Jeux** via Steam, avec IGDB en recherche complémentaire. **Livres** via Google Books et Open Library. **Traduction facultative** via DeepL. Les disponibilités en France reposent sur TMDB/JustWatch. Certains fournisseurs nécessitent vos propres identifiants API.
 
-NOVARIUM utilise l’API TMDB mais n’est ni approuvé ni certifié par TMDB. Les marques, notes, textes et illustrations de tiers restent soumis à leurs droits et conditions. Voir les [crédits et composants tiers](TIERS.md).
+NOVARIUM utilise l’API TMDB et bénéficie des données et illustrations de fournisseurs tiers. Les marques et visuels appartiennent à leurs titulaires. La [page des crédits et composants tiers](TIERS.md) détaille leurs conditions et licences.
 
-## Participer et obtenir de l’aide
+## Aide et communauté
 
-- **Une idée ou une amélioration ?** Partagez-la dans [Idées et suggestions](https://github.com/Light-x02/Novarium/discussions/categories/id%C3%A9es-et-suggestions).
-- **Une question sur l’application ?** Retrouvez la communauté dans [Questions et aide](https://github.com/Light-x02/Novarium/discussions/categories/questions-et-aide).
-- **Un bug à signaler ?** [Ouvrez un signalement](https://github.com/Light-x02/Novarium/issues/new).
+- Pour une question, consultez [Questions et aide](https://github.com/Light-x02/Novarium/discussions/categories/questions-et-aide).
+- Pour une fonctionnalité, partagez votre proposition dans [Idées et suggestions](https://github.com/Light-x02/Novarium/discussions/categories/id%C3%A9es-et-suggestions).
+- Pour un bug, [ouvrez un signalement](https://github.com/Light-x02/Novarium/issues/new) avec la version de NOVARIUM, la version de Windows et les étapes suivies. Anonymisez vos captures et gardez vos clés, jetons et sauvegardes privés.
 
-Pour signaler un bug, indiquez la version de NOVARIUM, la version de Windows et les étapes permettant de reproduire le problème. Joignez uniquement des captures anonymisées. **Ne publiez jamais de clé API, de jeton, de base de données, de sauvegarde ou de livre numérique.**
-
-## Soutenir NOVARIUM
-
-NOVARIUM est gratuit. Si vous souhaitez soutenir son développement, vous pouvez [faire un don sur Ko-fi](https://ko-fi.com/light_x02), ou cliquer sur **Soutenir NOVARIUM** en bas à droite de l’application. Ce soutien est entièrement facultatif.
-
+Vous pouvez soutenir le développement depuis le lien **Soutenir NOVARIUM** dans l’application ou sur [Ko-fi](https://ko-fi.com/light_x02).
 
 ---
 
-NOVARIUM · Créé par **Light_x02** · Logiciel propriétaire gratuit. Ce dépôt héberge la présentation et les téléchargements de l’application.
+NOVARIUM · Créé par **Light_x02** · Logiciel propriétaire gratuit.
