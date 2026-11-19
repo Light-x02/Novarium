@@ -4,9 +4,9 @@ NOVARIUM est une application locale. Aucun compte NOVARIUM distant n’est néce
 
 ## Connexions externes
 
-- Les recherches et imports de métadonnées transmettent les titres, identifiants ou critères nécessaires aux fournisseurs sélectionnés : TMDB, OMDb, IGDB/Twitch, Google Books ou Open Library. 
+- Les recherches et imports de métadonnées transmettent les titres, identifiants ou critères nécessaires aux fournisseurs sélectionnés, dont TMDB, OMDb, Steam, IGDB/Twitch, Google Books et Open Library.
 - La traduction facultative transmet à DeepL le texte public sélectionné à traduire, pas vos avis personnels.
-- Certains portraits d’acteurs et affiches de filmographie sont affichés depuis des URL de fournisseurs. L’affichage peut donc entraîner une connexion à ces hébergeurs. Les portraits des acteurs favoris sont conservés localement. Les affiches et couvertures des œuvres sont locales ; les nouvelles images d’épisodes utilisent les URL des fournisseurs.
+- L’affichage des visuels distants, comme les images d’épisodes, certaines affiches, les fonds et les médias du magasin Steam, peut contacter leurs hébergeurs. Les nouvelles affiches principales des films et séries sont conservées localement.
 - La recherche de mises à jour contacte GitHub ; elle est activée par défaut et désactivable. Le téléchargement et l’installation requièrent votre accord.
 - Une bande-annonce YouTube est chargée après clic. Les services externes appliquent leurs propres règles de confidentialité, conditions et limites.
 - Le lien **Soutenir NOVARIUM** ouvre Ko-fi dans votre navigateur uniquement après votre clic. Les conditions de confidentialité de Ko-fi s’appliquent sur ce site ; aucun paiement n’est traité dans NOVARIUM.
@@ -14,11 +14,17 @@ NOVARIUM est une application locale. Aucun compte NOVARIUM distant n’est néce
 
 Les fournisseurs et hébergeurs peuvent recevoir votre adresse IP et les informations techniques de la connexion. Les données déjà sauvegardées localement restent consultables sans Internet, sauf les images uniquement distantes.
 
+## Connexion à Steam
+
+La connexion à Steam est facultative. Lorsque vous l’activez, NOVARIUM dialogue avec Steam pour authentifier le compte et synchroniser les données choisies. Les jeux, collections, favoris et, si vous l’activez, la liste de souhaits sont enregistrés dans le profil NOVARIUM. L’actualisation automatique facultative des prix consulte le magasin public avec les identifiants des jeux et DLC concernés.
+
+Le jeton de connexion est protégé par le coffre Windows. Sur un PC compatible, vous pouvez également activer la protection TPM. Le mot de passe Steam n’est jamais enregistré. Les sauvegardes et exports ne contiennent pas le jeton. Vous pouvez gérer la connexion et les imports Steam dans **Paramètres → Importation → Jeux vidéo**.
+
 ## Clés, sauvegardes et exports
 
 Les identifiants API sont configurés localement et ne sont pas embarqués dans les téléchargements. Les téléchargements et mises à jour publics ne demandent pas de jeton GitHub. Les paramètres API restent dans le stockage local de NOVARIUM ; n’accordez pas l’accès à vos dossiers de données à une personne non autorisée.
 
-Les sauvegardes et exports peuvent inclure des informations personnelles. Les clés API sont exclues par défaut ; leur inclusion peut être demandée explicitement lorsque l’option est proposée. Les fichiers ebooks ne sont copiés que si l’option correspondante est choisie. Conservez ces archives dans un emplacement privé.
+Les sauvegardes et exports peuvent inclure des informations personnelles. Les clés API sont exclues par défaut. Leur inclusion peut être demandée explicitement lorsque l’option est proposée. Les références des ebooks restent dans les archives créées par l’application. Conservez ces archives dans un emplacement privé.
 
 Les sauvegardes automatiques conservent les chemins des vidéos locales et leurs associations. Pour les exports, la case **Inclure les liens des vidéos locales** est cochée par défaut pour le profil complet et décochée pour les collections. Les vidéos elles-mêmes ne sont jamais copiées dans l’archive. Si vous incluez les liens, leurs chemins peuvent révéler des noms de dossiers : vérifiez ce choix avant de partager une collection. Désactiver cette option n’anonymise pas les autres informations de l’archive, comme vos notes et les noms de collections.
 
