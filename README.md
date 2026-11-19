@@ -10,28 +10,26 @@
 
 ![Accueil de NOVARIUM : collections du moment, œuvre à la une et favoris](assets/novarium-home.png)
 
-**Version actuelle : [0.49.0](https://github.com/Light-x02/Novarium/releases/tag/v0.49.0).**
+**La version actuelle est la [0.50.0](https://github.com/Light-x02/Novarium/releases/tag/v0.50.0).**
 
-## Les nouveautés de la 0.49.0
+## Les nouveautés de la 0.50.0
 
-- **Des fiches plus claires** : présentation, distribution, informations, sagas, saisons et critiques réparties en onglets selon l’œuvre.
-- **Vos notes à portée de clic** : notes IMDb et TMDB, note personnelle sur 10 et choix de celle affichée sur les affiches.
-- **Des statistiques pour les films et séries** : vue d’ensemble, visionnage, goûts et notes, activité, avec graphiques et filtres.
-- **Un démarrage accompagné** : guide de bienvenue pour configurer les sources de métadonnées, consultable à nouveau depuis les paramètres.
-- **Des recherches mieux organisées** : tris avec inversion, classement par âge et choix d’afficher uniquement les abonnements ou de masquer les offres d’achat et de location.
-- **Une corbeille commune** aux œuvres et collections, avec une suppression automatique facultative, désactivée par défaut.
-- **Des transferts plus pratiques** : retrouvez ou annulez un export préparé et choisissez d’inclure les liens vers vos vidéos locales.
-- **Des imports plus fiables** : meilleure gestion des titres homonymes, des séries incomplètes, des images et des grandes bibliothèques.
+- **Bibliothèque Steam.** Importez vos jeux, collections et favoris. Vous pouvez aussi importer votre liste de souhaits avec les prix et promotions disponibles. Le coffre Windows protège la connexion, avec une protection TPM facultative.
+- **Fiches et statistiques de jeux.** Retrouvez les DLC, succès, heures de jeu et captures. Suivez vos installations Steam et consultez l’historique du temps de jeu par semaine ou par mois, à partir des synchronisations.
+- **Recherche et accueil.** Enregistrez vos recherches et utilisez les filtres avancés de chaque bibliothèque. Choisissez les œuvres à la une, activez le défilement aléatoire et épinglez vos collections.
+- **Films et séries.** La synchronisation complète les informations manquantes et ajoute les nouvelles saisons et les nouveaux épisodes en conservant votre suivi. Les affiches peuvent indiquer votre plateforme de streaming favorite lorsqu’elle propose l’œuvre.
+- **Paramètres et sauvegardes.** Retrouvez une navigation latérale, des écrans d’import et de transfert remaniés et une analyse du stockage plus détaillée.
+- **Mises à jour signées.** La 0.50.0 embarque la clé publique utilisée pour vérifier les prochaines mises à jour. Un résumé s’affiche au premier lancement après une mise à jour.
 
-[Consulter toutes les nouveautés de cette version →](https://github.com/Light-x02/Novarium/releases/tag/v0.49.0)
+[Consulter toutes les nouveautés de cette version →](https://github.com/Light-x02/Novarium/releases/tag/v0.50.0)
 
 ## Quatre bibliothèques, toutes vos histoires
 
 | Votre univers | Ce que vous pouvez organiser |
 | --- | --- |
 | **Films et séries** | Affiches, synopsis, distribution, saisons et épisodes, notes, favoris, statuts et suivi de visionnage. |
-| **Jeux vidéo** | Couvertures, plateformes, studios, statuts et temps de jeu saisi manuellement. |
-| **Romans** | Livres papier et numériques, éditions, fichiers associés, sagas, tomes et progression de lecture. Un indicateur manuel permet de repérer les livres présents sur votre liseuse. |
+| **Jeux vidéo** | Fiches de jeux et de DLC, suivi manuel ou synchronisation Steam, installations, succès et statistiques. |
+| **Romans** | Livres papier et numériques, éditions, sagas, tomes et progression de lecture. L’import de fichiers ebooks est suspendu pendant la préparation de la refonte. |
 | **Collections** | Sous-collections, recherche, filtres, tri, ordre personnel et sélections mises en avant sur l’accueil. |
 
 ## Un espace qui vous ressemble
@@ -41,7 +39,7 @@
 - **Profils distincts** : collections, favoris et suivis séparés, avatar et préférences propres à chaque profil. Duplication, gestion du stockage et suppression avec confirmation.
 - **Décor personnalisable** : choisissez et recadrez le fond de l’application. L’interface utilise le bleu électrique ; la personnalisation des thèmes est temporairement retirée.
 - **Sauvegardes et transferts** : sauvegardes vérifiées, restauration avec confirmation, export de profils et de collections.
-- **Imports** : ajout manuel, listes IMDb et dossiers vidéo. Imports films et séries séparés, sélection groupée, correction des titres, choix des correspondances et création facultative d’une collection.
+- **Imports** : ajout manuel, listes IMDb, dossiers vidéo et bibliothèque Steam. L’import de dossiers vidéo permet de sélectionner les fichiers en groupe, corriger les titres, choisir les correspondances et créer une collection.
 - **Vidéos sur votre PC** : retrouvez vos films et séries, leur qualité vidéo et leurs informations, puis lancez leur lecture dans votre lecteur habituel. Actualisez vos dossiers et gérez les associations depuis NOVARIUM, sans déplacer les fichiers.
 - **Mises à jour intégrées** : recherche au démarrage désactivable et recherche manuelle. Chaque installation demande votre accord et conserve le programme précédent.
 
@@ -66,7 +64,7 @@ Consulter la [confidentialité](CONFIDENTIALITE.md) et les [conditions d’utili
 
 ## Sources et crédits
 
-Films et séries : **TMDB** et **IMDb via OMDb**, service indépendant de l’API officielle IMDb. Jeux : **IGDB**. Livres : **Google Books** et **Open Library**. Traduction facultative : **DeepL**. Certains fournisseurs nécessitent vos propres identifiants API et appliquent leurs limites et conditions. Les disponibilités France reposent sur les données TMDB/JustWatch lorsqu’elles existent.
+Films et séries via **TMDB** et **IMDb via OMDb**, service indépendant de l’API officielle IMDb. Pour les jeux, **Steam** est la source proposée par défaut, avec **IGDB** en recherche complémentaire. Les livres utilisent **Google Books** et **Open Library**. La traduction via **DeepL** est facultative. Certains fournisseurs nécessitent vos propres identifiants API et appliquent leurs limites et conditions. Les disponibilités en France reposent sur les données TMDB/JustWatch lorsqu’elles existent.
 
 NOVARIUM utilise l’API TMDB mais n’est ni approuvé ni certifié par TMDB. Les marques, notes, textes et illustrations de tiers restent soumis à leurs droits et conditions. Voir les [crédits et composants tiers](TIERS.md).
 
@@ -85,4 +83,4 @@ NOVARIUM est gratuit. Si vous souhaitez soutenir son développement, vous pouvez
 
 ---
 
-NOVARIUM · Créé par **Light_x02** · Logiciel propriétaire gratuit. Ce dépôt héberge la présentation et les téléchargements de l’application. 
+NOVARIUM · Créé par **Light_x02** · Logiciel propriétaire gratuit. Ce dépôt héberge la présentation et les téléchargements de l’application.

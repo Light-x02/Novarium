@@ -1,4 +1,4 @@
-# Installer NOVARIUM 0.49.0
+# Installer NOVARIUM 0.50.0
 
 ## Configuration Windows
 
@@ -16,7 +16,7 @@ Ces composants sont pris en charge sous Windows 10 et Windows 11 selon la [docum
 
 ## Télécharger et extraire
 
-Télécharger **[NOVARIUM-v0.49.0.zip](https://github.com/Light-x02/Novarium/releases/download/v0.49.0/NOVARIUM-v0.49.0.zip)** depuis la release officielle. L’empreinte SHA-256 permet de vérifier le téléchargement.
+Télécharger **[NOVARIUM-v0.50.0.zip](https://github.com/Light-x02/Novarium/releases/download/v0.50.0/NOVARIUM-v0.50.0.zip)** depuis la publication officielle. Le ZIP contient tout ce qui est nécessaire à l’installation de NOVARIUM. L’empreinte SHA-256 figure en bas de ce guide.
 
 Extraire complètement l’archive. Dans le dossier `NOVARIUM`, conserver ensemble `NOVARIUM.exe`, `_internal` et toutes les ressources fournies. Le programme utilise une distribution en dossier, pas un EXE isolé.
 
@@ -36,7 +36,9 @@ Pour récupérer des métadonnées, configurez les services souhaités dans **Pa
 
 ## Mettre à jour
 
-Dans **Paramètres → Mises à jour**, lancer une recherche ou conserver la recherche au démarrage. Le téléchargement est vérifié avant installation. Enregistrer les modifications et terminer les imports avant de confirmer **Fermer et installer**. L’ancien programme est conservé ; les données ne sont pas remplacées.
+Dans **Paramètres → Mises à jour**, lancer une recherche ou conserver la recherche au démarrage. Sélectionner **Télécharger la mise à jour**, puis **Fermer et installer** après avoir enregistré vos modifications et terminé vos imports. NOVARIUM conserve une copie de l’ancien programme et redémarre automatiquement. Un résumé des nouveautés s’affiche au premier lancement de la 0.50.0 après la mise à jour.
+
+Pour passer de la **0.49.0 à la 0.50.0**, la 0.49.0 télécharge le ZIP et vérifie son empreinte SHA-256. À partir de la **0.50.0**, l’application récupère également le fichier `.sig.json` et vérifie la signature Ed25519 avec sa clé publique intégrée. Le parcours automatique se fait entièrement depuis l’application.
 
 Le dépôt de téléchargement est public : aucun compte ni jeton GitHub n’est nécessaire pour télécharger les versions et utiliser la recherche de mises à jour.
 
@@ -44,7 +46,7 @@ Une ancienne version du programme peut ne pas être compatible avec une base plu
 
 ## Dépannage
 
-Si Windows ou un antivirus bloque un fichier, conserver le détail de l’alerte, la version et l’empreinte du fichier pour le signalement. Ne pas désactiver les protections pour contourner un avertissement inexpliqué. Le programme n’est pas annoncé comme signé tant qu’une signature de code vérifiable n’est pas fournie.
+Si Windows ou un antivirus bloque un fichier, conserver le détail de l’alerte, la version et l’empreinte du fichier pour le signalement. La signature Ed25519 est vérifiée par NOVARIUM et porte sur l’archive de mise à jour. La vérification de l’exécutable par Windows relève de la signature de code Authenticode.
 
 La version proposée est une archive à extraire.
 
@@ -63,7 +65,7 @@ Un export préparé reste accessible dans **Importer / exporter** après un chan
 
 ## Versions et compatibilité des données
 
-La mise à jour de la 0.48.0 vers la 0.49.0 conserve les profils, les réglages, les bibliothèques et les associations aux vidéos locales. Conservez vos sauvegardes avant toute mise à jour.
+La mise à jour de la 0.49.0 vers la 0.50.0 a été testée dans l’application Windows. Elle applique une migration à la base de données existante. Dans le profil de test, le catalogue, la collection, les préférences et la sauvegarde antérieure ont été retrouvés après le redémarrage. Conservez vos sauvegardes avant toute mise à jour.
 
 Les anciennes éditions de développement, antérieures au socle public 0.46.0, utilisent un autre format. Elles ne doivent pas ouvrir une bibliothèque récente et leurs anciens profils ne sont pas convertis. Si un nouveau départ est proposé pour ces éditions, les anciens fichiers sont conservés séparément.
 
@@ -71,8 +73,10 @@ L’analyse de la qualité vidéo est intégrée : aucun outil supplémentaire n
 
 ## Vérifier le téléchargement
 
-SHA-256 de **`NOVARIUM-v0.49.0.zip`** :
+SHA-256 de **`NOVARIUM-v0.50.0.zip`**
 
 ```text
-4d01c15fa9d8eeec1479d6c0c6787fd6695ef2b2ccc88968f237777ba6968d08
+7d2e76b5474f39bd312c683647036d6888bd1b1eab3b20a0b647d4c18431fa61
 ```
+
+Le fichier [`.sig.json`](https://github.com/Light-x02/Novarium/releases/download/v0.50.0/NOVARIUM-v0.50.0.zip.sig.json) contient la signature de cette archive. Il est proposé séparément pour la vérification manuelle. L’application le télécharge automatiquement à partir de la 0.50.0.

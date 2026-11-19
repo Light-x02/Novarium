@@ -8,9 +8,9 @@
 
 ## 🧭 Prévu
 
-### 🎮 Votre bibliothèque Steam dans NOVARIUM
+### 📖 Refonte de la bibliothèque Romans
 
-Importer les jeux de votre bibliothèque Steam et les lancer directement depuis leur fiche dans NOVARIUM.
+Revoir le parcours de gestion des livres numériques. L’import de fichiers ebooks est suspendu en attendant cette refonte.
 
 ### 📚 Davantage de sources pour vos collections
 
@@ -24,6 +24,16 @@ Ajouter de nouvelles sources d’importation de collections, en complément de l
 
 ## ✅ Disponible (ajouté récemment)
 
+### 🎮 Bibliothèque, fiches et statistiques Steam
+
+Importez vos jeux, collections, favoris et, si vous le souhaitez, votre liste de souhaits. Lancez vos jeux installés depuis leur fiche et retrouvez vos succès et votre historique du temps de jeu.
+
+### 🔎 Recherches enregistrées et accueil personnalisé
+
+Enregistrez les filtres de vos bibliothèques et choisissez les œuvres à la une et les collections épinglées sur l’accueil.
+
+[Découvrir les nouveautés de la 0.50.0 →](https://github.com/Light-x02/Novarium/releases/tag/v0.50.0)
+
 ### 🎬 Vos vidéos du PC dans NOVARIUM
 
 Importer vos films et séries depuis les dossiers de votre PC, retrouver leurs informations et lancer leur lecture depuis NOVARIUM dans votre lecteur habituel.
@@ -31,8 +41,6 @@ Importer vos films et séries depuis les dossiers de votre PC, retrouver leurs i
 ### 📊 Statistiques films et séries
 
 Consulter votre activité, votre suivi de visionnage, vos genres et vos notes dans des onglets et graphiques dédiés, depuis la version 0.49.0.
-
-[Découvrir les nouveautés de la 0.49.0 →](https://github.com/Light-x02/Novarium/releases/tag/v0.49.0)
 
 ---
 
