@@ -1,4 +1,4 @@
-# Installer NOVARIUM 0.50.0
+# Installer NOVARIUM 0.51.1
 
 ## Configuration Windows
 
@@ -16,7 +16,7 @@ Ces composants sont pris en charge sous Windows 10 et Windows 11 selon la [docum
 
 ## Télécharger et extraire
 
-Télécharger **[NOVARIUM-v0.50.0.zip](https://github.com/Light-x02/Novarium/releases/download/v0.50.0/NOVARIUM-v0.50.0.zip)** depuis la publication officielle. Le ZIP contient tout ce qui est nécessaire à l’installation de NOVARIUM. L’empreinte SHA-256 figure en bas de ce guide.
+Télécharger **[NOVARIUM-v0.51.1.zip](https://github.com/Light-x02/Novarium/releases/download/v0.51.1/NOVARIUM-v0.51.1.zip)** depuis la publication officielle. Le ZIP contient tout ce qui est nécessaire à l’installation de NOVARIUM. L’empreinte SHA-256 figure en bas de ce guide.
 
 Extraire complètement l’archive. Dans le dossier `NOVARIUM`, conserver ensemble `NOVARIUM.exe`, `_internal` et toutes les ressources fournies. Le programme utilise une distribution en dossier, pas un EXE isolé.
 
@@ -30,13 +30,13 @@ Ne pas supprimer les fichiers annexes du dossier du programme. Si une instance e
 
 Au premier lancement, créez votre profil. Un guide de bienvenue vous accompagne pour configurer les sources de métadonnées ; vous pouvez passer cette étape et y revenir plus tard. Les données se trouvent par défaut sous `%LOCALAPPDATA%\NOVARIUM\`, séparées du dossier du programme. L’emplacement de la base et les sauvegardes se gèrent dans **Paramètres → Données et sauvegardes**. Ne supprimer aucun dossier de données lors d’une mise à jour.
 
-Le crayon d’un profil permet de le modifier, de le dupliquer ou de le supprimer. La suppression demande une confirmation explicite et le nom exact du profil. Les sauvegardes et fichiers externes sont conservés.
+Le crayon d’un profil permet de le modifier, de le dupliquer ou de le supprimer. La suppression demande une confirmation explicite et le nom exact du profil. Les sauvegardes et fichiers externes sont conservés. Si le dossier actif est inaccessible, **Retirer du sélecteur** permet de retirer le profil de la liste en conservant ses fichiers.
 
 Pour récupérer des métadonnées, configurez les services souhaités dans **Paramètres → Métadonnées et services**. Le bouton **Guide de bienvenue et clés API** permet de retrouver les instructions. Les clés restent locales ; aucune clé de l’éditeur n’est distribuée. Certains services imposent une inscription, un quota ou un abonnement distinct.
 
 ## Mettre à jour
 
-Dans **Paramètres → Mises à jour**, lancer une recherche ou conserver la recherche au démarrage. Sélectionner **Télécharger la mise à jour**, puis **Fermer et installer** après avoir enregistré vos modifications et terminé vos imports. NOVARIUM conserve une copie de l’ancien programme et redémarre automatiquement. Un résumé des nouveautés s’affiche au premier lancement de la 0.50.0 après la mise à jour.
+Dans **Paramètres → Mises à jour**, lancer une recherche ou conserver la recherche au démarrage. Sélectionner **Télécharger la mise à jour**, puis **Fermer et installer** après avoir enregistré vos modifications et terminé vos imports. NOVARIUM conserve une copie de l’ancien programme et redémarre automatiquement. Un résumé des nouveautés s’affiche au premier lancement après la mise à jour. Pour les mises à jour lancées depuis la 0.51.1 ou une version ultérieure, NOVARIUM remet en place l’installation précédente si le nouveau programme se ferme avant de confirmer son ouverture.
 
 Pour passer de la **0.49.0 à la 0.50.0**, la 0.49.0 télécharge le ZIP et vérifie son empreinte SHA-256. À partir de la **0.50.0**, l’application récupère également le fichier `.sig.json` et vérifie la signature Ed25519 avec sa clé publique intégrée. Le parcours automatique se fait entièrement depuis l’application.
 
@@ -65,7 +65,7 @@ Un export préparé reste accessible dans **Importer / exporter** après un chan
 
 ## Versions et compatibilité des données
 
-La mise à jour de la 0.49.0 vers la 0.50.0 a été testée dans l’application Windows. Elle applique une migration à la base de données existante. Dans le profil de test, le catalogue, la collection, les préférences et la sauvegarde antérieure ont été retrouvés après le redémarrage. Conservez vos sauvegardes avant toute mise à jour.
+La mise à jour de la 0.51.0 vers la 0.51.1 a été testée avec les exécutables Windows et un profil fictif. Après redémarrage, la collection, les favoris, les notes, les préférences et la sauvegarde déjà présente ont été retrouvés. La transition de la 0.49.0 vers la 0.50.0 a aussi été vérifiée. Conservez vos sauvegardes avant toute mise à jour.
 
 Les anciennes éditions de développement, antérieures au socle public 0.46.0, utilisent un autre format. Elles ne doivent pas ouvrir une bibliothèque récente et leurs anciens profils ne sont pas convertis. Si un nouveau départ est proposé pour ces éditions, les anciens fichiers sont conservés séparément.
 
@@ -73,10 +73,10 @@ L’analyse de la qualité vidéo est intégrée : aucun outil supplémentaire n
 
 ## Vérifier le téléchargement
 
-SHA-256 de **`NOVARIUM-v0.50.0.zip`**
+SHA-256 de **`NOVARIUM-v0.51.1.zip`**
 
 ```text
-7d2e76b5474f39bd312c683647036d6888bd1b1eab3b20a0b647d4c18431fa61
+e9e4e2a023f78fbe6774a3f52f6f4658d310ecdd387311bb4253b5fb2dc82fe1
 ```
 
-Le fichier [`.sig.json`](https://github.com/Light-x02/Novarium/releases/download/v0.50.0/NOVARIUM-v0.50.0.zip.sig.json) contient la signature de cette archive. Il est proposé séparément pour la vérification manuelle. L’application le télécharge automatiquement à partir de la 0.50.0.
+Le fichier [`.sig.json`](https://github.com/Light-x02/Novarium/releases/download/v0.51.1/NOVARIUM-v0.51.1.zip.sig.json) contient la signature de cette archive. Lors d’une mise à jour depuis la 0.50.0 ou une version ultérieure, l’application le télécharge et le vérifie automatiquement. Pour installer le programme manuellement, le ZIP suffit. Le fichier de signature est disponible si vous souhaitez vérifier vous-même l’archive avec une copie de confiance de la clé publique.

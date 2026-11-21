@@ -32,7 +32,7 @@ Le serveur interne de l’application se limite à la boucle locale et n’est p
 
 ## Suppression et réinitialisation des profils
 
-La suppression d’un profil retire définitivement ses données après confirmation. Les sauvegardes et fichiers externes sont conservés. Des données de récupération et journaux techniques peuvent être conservés pour terminer une opération interrompue. La réinitialisation et la suppression sont des opérations distinctes.
+La suppression d’un profil efface définitivement les fichiers actifs identifiés comme lui appartenant, après confirmation. Les sauvegardes, les fichiers externes et les fichiers dont l’appartenance reste incertaine sont conservés. Si le dossier du profil est indisponible, le retirer du sélecteur conserve ses fichiers et ses sauvegardes. Des données de récupération et journaux techniques peuvent être conservés pour terminer une opération interrompue. La réinitialisation et la suppression sont des opérations distinctes.
 
 La corbeille des œuvres et collections peut être vidée automatiquement après le délai choisi dans ses paramètres. Cette option est désactivée par défaut. Elle supprime les éléments concernés de la bibliothèque, sans supprimer les vidéos externes de vos dossiers.
 
