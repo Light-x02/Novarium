@@ -4,7 +4,7 @@
 <p align="center"><strong>Explore Your Worlds</strong><br>Votre bibliothèque de films, séries, jeux vidéo et romans sur Windows.</p>
 <p align="center"><a href="https://github.com/Light-x02/Novarium/releases/latest">Télécharger NOVARIUM</a> · <a href="#tutoriels-en-images">Tutoriels en images</a> · <a href="INSTALLATION.md">Guide d’installation</a> · <a href="ROADMAP.md">Feuille de route</a> · <a href="https://ko-fi.com/light_x02">Faire un don</a></p>
 
-NOVARIUM est une application Windows gratuite et propriétaire. Organisez vos œuvres, retrouvez votre progression et partagez une collection ou sauvegardez un profil. Vos données sont conservées sur votre ordinateur.
+NOVARIUM est une application Windows gratuite et propriétaire. Organisez vos œuvres, retrouvez votre progression et partagez une collection ou sauvegardez un profil. Vos données sont conservées sur votre ordinateur. 
 
 ![L’accueil de NOVARIUM avec Squadron 42 à la une, les collections épinglées et les favoris](assets/novarium-home.png)
 
