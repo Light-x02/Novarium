@@ -14,6 +14,14 @@ NOVARIUM est une application locale. Aucun compte NOVARIUM distant n’est néce
 
 Les fournisseurs et hébergeurs peuvent recevoir votre adresse IP et les informations techniques de la connexion. Les données déjà sauvegardées localement restent consultables sans Internet, sauf les images uniquement distantes.
 
+## Import de listes publiques Trakt
+
+Lorsque vous demandez l’aperçu d’une liste publique, NOVARIUM contacte Trakt depuis votre ordinateur pour lire son contenu. Trakt reçoit l’identifiant numérique de la liste ou, selon le lien collé, le nom public de son propriétaire et l’identifiant de la liste. La requête contient aussi l’identifiant d’application de NOVARIUM et, pour les listes paginées, le numéro et la taille de la page demandée. Trakt voit l’adresse IP de votre connexion. Vos notes, votre historique de visionnage et le contenu de votre bibliothèque locale restent privés lors de cet échange.
+
+Si vous confirmez l’import, NOVARIUM enregistre la collection et l’ordre des œuvres dans votre profil local. TMDB ou OMDb reçoit les identifiants ou titres nécessaires pour compléter les fiches, selon la source choisie. L’import laisse la liste d’origine sur Trakt intacte.
+
+**Comment se déconnecter de Trakt ?** L’import fonctionne sans connexion à un compte Trakt. NOVARIUM ne conserve aucun jeton personnel Trakt et ne synchronise pas la liste en arrière-plan. Pour cesser tout échange avec Trakt, il suffit de ne plus demander d’import de liste Trakt. Vous pouvez supprimer la collection et, si vous le souhaitez, les fiches importées de votre bibliothèque locale, puis vider la corbeille. Les sauvegardes existantes conservent leur copie jusqu’à leur suppression.
+
 ## Connexion à Steam
 
 La connexion à Steam est facultative. Lorsque vous l’activez, NOVARIUM dialogue avec Steam pour authentifier le compte et synchroniser les données choisies. Les jeux, collections, favoris et, si vous l’activez, la liste de souhaits sont enregistrés dans le profil NOVARIUM. L’actualisation automatique facultative des prix consulte le magasin public avec les identifiants des jeux et DLC concernés.
