@@ -162,6 +162,10 @@ Chaque profil dispose de son propre dossier de données et conserve ses collecti
 
 NOVARIUM utilise l’API TMDB et bénéficie des données et illustrations de fournisseurs tiers. Les marques et visuels appartiennent à leurs titulaires. La [page des crédits et composants tiers](TIERS.md) détaille leurs conditions et licences.
 
+### Trakt
+
+Novarium uses Trakt but is not endorsed or certified by Trakt.
+
 ## Aide et communauté
 
 - Pour une question, consultez [Questions et aide](https://github.com/Light-x02/Novarium/discussions/categories/questions-et-aide).
