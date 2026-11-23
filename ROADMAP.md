@@ -12,10 +12,6 @@
 
 Revoir le parcours de gestion des livres numériques. L’import de fichiers ebooks est suspendu en attendant cette refonte.
 
-### 📚 Davantage de sources pour vos collections
-
-Ajouter de nouvelles sources d’importation de collections, en complément de l’import de listes IMDb déjà disponible.
-
 ---
 
 ## 💡 En réflexion
@@ -23,6 +19,12 @@ Ajouter de nouvelles sources d’importation de collections, en complément de l
 ---
 
 ## ✅ Disponible (ajouté récemment)
+
+### 📚 Listes TMDB et Trakt, historique de visionnage
+
+Importez une liste publique par lien en conservant l’ordre des œuvres. Depuis un ZIP Trakt, choisissez les collections, les favoris, les notes ou les visionnages à retrouver dans votre profil.
+
+[Découvrir les nouveautés de la 0.52.0 →](https://github.com/Light-x02/Novarium/releases/tag/v0.52.0)
 
 ### 🎮 Bibliothèque, fiches et statistiques Steam
 

@@ -19,6 +19,7 @@ ABI compatible. [Projet FFmpeg et conditions](https://ffmpeg.org/legal.html).
 
 - **TMDB** : NOVARIUM utilise l’API TMDB mais n’est ni approuvé ni certifié par TMDB. [Conditions](https://www.themoviedb.org/api-terms-of-use).
 - **OMDb** : service indépendant fournissant des références et notes IMDb. Ce n’est pas l’API officielle IMDb. [Service et conditions](https://www.omdbapi.com/).
+- **Trakt** fournit le contenu des listes publiques importées par lien. [Mention Trakt](README.md#trakt) · [Données échangées](CONFIDENTIALITE.md#import-de-listes-publiques-trakt).
 - **Steam / Valve et éditeurs des jeux.** Métadonnées et illustrations du magasin. La connexion facultative à Steam permet de synchroniser les données prises en charge de votre bibliothèque. [Magasin Steam](https://store.steampowered.com/).
 - **IGDB / Twitch.** Recherche complémentaire de jeux avec vos identifiants d’accès. [Documentation](https://api-docs.igdb.com/).
 - **Google Books** et **Open Library** : métadonnées de livres et éditions. [Google Books](https://developers.google.com/books), [Open Library](https://openlibrary.org/developers/api).

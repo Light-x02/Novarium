@@ -4,11 +4,11 @@
 <p align="center"><strong>Explore Your Worlds</strong><br>Votre bibliothèque de films, séries, jeux vidéo et romans sur Windows.</p>
 <p align="center"><a href="https://github.com/Light-x02/Novarium/releases/latest">Télécharger NOVARIUM</a> · <a href="#tutoriels-en-images">Tutoriels en images</a> · <a href="INSTALLATION.md">Guide d’installation</a> · <a href="ROADMAP.md">Feuille de route</a> · <a href="https://ko-fi.com/light_x02">Faire un don</a></p>
 
-NOVARIUM est une application Windows gratuite et propriétaire. Organisez vos œuvres, retrouvez votre progression et partagez une collection ou sauvegardez un profil. Vos données sont conservées sur votre ordinateur. 
+NOVARIUM est une application Windows gratuite et propriétaire. Organisez vos œuvres, retrouvez votre progression et partagez une collection ou sauvegardez un profil. Vos données sont conservées sur votre ordinateur.
 
 ![L’accueil de NOVARIUM avec Squadron 42 à la une, les collections épinglées et les favoris](assets/novarium-home.png)
 
-**Version stable [0.51.1](https://github.com/Light-x02/Novarium/releases/tag/v0.51.1)** · **Windows 11 x64 testé** · [Prérequis et compatibilité](INSTALLATION.md#configuration-windows)
+**Version stable [0.52.0](https://github.com/Light-x02/Novarium/releases/tag/v0.52.0)** · **Windows 11 x64 testé** · [Prérequis et compatibilité](INSTALLATION.md#configuration-windows)
 
 ## Pour commencer
 
@@ -147,14 +147,14 @@ Les collections **Favoris Steam** et **Liste de souhaits Steam** suivent vos cho
 
 Chaque profil dispose de son propre dossier de données et conserve ses collections, favoris et préférences. Les sauvegardes restent séparées et peuvent être restaurées depuis l’écran des profils. Une fois enregistrée, la bibliothèque est consultable hors ligne. La recherche de métadonnées, les visuels distants, les mises à jour et les synchronisations utilisent Internet. [Confidentialité](CONFIDENTIALITE.md) · [Conditions d’utilisation](MENTIONS_LEGALES.md)
 
-## Nouveautés de la 0.51.1
+## Nouveautés de la 0.52.0
 
-- Retirez un profil indisponible du sélecteur en conservant ses fichiers. Les sauvegardes accessibles restent disponibles pour la restauration.
-- Après un import IMDb, ouvrez la collection directement depuis le bilan. Les compteurs se mettent à jour pendant l’import.
-- La synchronisation Steam préserve le temps de jeu connu si la durée manque. La vérification du QR code reprend après une interruption temporaire.
-- Depuis le menu d’une affiche, choisissez de mettre la fiche à la corbeille ou de la supprimer définitivement après confirmation.
+- **Importer une liste de films et séries.** Dans **Paramètres → Importation → Films et séries**, collez le lien d’une liste publique TMDB ou Trakt. Choisissez le nom de la collection et la source des fiches (TMDB ou IMDb via OMDb). Le tri **Ordre personnel** retrouve l’ordre de la liste. L’import IMDb reste disponible à partir d’un fichier CSV.
+- **Retrouver ses visionnages Trakt.** Ouvrez votre export ZIP et choisissez les collections, la liste à voir, les favoris, les notes ou l’historique. Un film vu avant son ajout à la bibliothèque retrouve son suivi. Réimporter le ZIP ajoute les nouveaux visionnages sans compter les précédents deux fois.
+- **Agir sur plusieurs œuvres.** Sélectionnez une plage avec **Maj**, ou tous les résultats d’un filtre sur plusieurs pages. Vous pouvez notamment gérer leurs collections ou effacer leur historique de visionnage. Chaque profil peut désactiver sa corbeille. À la suppression d’une collection, ses œuvres sont conservées par défaut.
+- **Choisir quoi regarder chez un acteur.** Triez sa filmographie TMDB par service de streaming. Le logo sur l’affiche indique le premier de vos services favoris qui propose l’œuvre en France.
 
-[Notes complètes de la 0.51.1](https://github.com/Light-x02/Novarium/releases/tag/v0.51.1)
+[Notes complètes de la 0.52.0](https://github.com/Light-x02/Novarium/releases/tag/v0.52.0)
 
 ## Sources et crédits
 

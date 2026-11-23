@@ -22,6 +22,12 @@ Si vous confirmez l’import, NOVARIUM enregistre la collection et l’ordre des
 
 **Comment se déconnecter de Trakt ?** L’import fonctionne sans connexion à un compte Trakt. NOVARIUM ne conserve aucun jeton personnel Trakt et ne synchronise pas la liste en arrière-plan. Pour cesser tout échange avec Trakt, il suffit de ne plus demander d’import de liste Trakt. Vous pouvez supprimer la collection et, si vous le souhaitez, les fiches importées de votre bibliothèque locale, puis vider la corbeille. Les sauvegardes existantes conservent leur copie jusqu’à leur suppression.
 
+## Import d’un export ZIP Trakt
+
+NOVARIUM ouvre le ZIP sur votre ordinateur. Vous choisissez les collections et les données à reprendre dans votre profil. L’aperçu et l’import du seul historique de visionnage fonctionnent hors ligne. Les dates de visionnage restent dans le profil, y compris pour les œuvres que vous ajouterez plus tard.
+
+Si votre sélection crée des fiches, NOVARIUM consulte les fournisseurs de métadonnées selon la source et les préférences choisies pour récupérer les informations et les images. Le ZIP reste sur votre ordinateur.
+
 ## Connexion à Steam
 
 La connexion à Steam est facultative. Lorsque vous l’activez, NOVARIUM dialogue avec Steam pour authentifier le compte et synchroniser les données choisies. Les jeux, collections, favoris et, si vous l’activez, la liste de souhaits sont enregistrés dans le profil NOVARIUM. L’actualisation automatique facultative des prix consulte le magasin public avec les identifiants des jeux et DLC concernés.
@@ -30,7 +36,7 @@ Le jeton de connexion est protégé par le coffre Windows. Sur un PC compatible,
 
 ## Clés, sauvegardes et exports
 
-Les identifiants API sont configurés localement et ne sont pas embarqués dans les téléchargements. Les téléchargements et mises à jour publics ne demandent pas de jeton GitHub. Les paramètres API restent dans le stockage local de NOVARIUM ; n’accordez pas l’accès à vos dossiers de données à une personne non autorisée.
+Vos clés API personnelles sont configurées localement et ne sont pas embarquées dans les téléchargements. Pour lire les listes publiques Trakt, NOVARIUM fournit son propre identifiant public d’application. Les téléchargements et mises à jour publics ne demandent pas de jeton GitHub. Les paramètres API restent dans le stockage local de NOVARIUM ; n’accordez pas l’accès à vos dossiers de données à une personne non autorisée.
 
 Les sauvegardes et exports peuvent inclure des informations personnelles. Les clés API sont exclues par défaut. Leur inclusion peut être demandée explicitement lorsque l’option est proposée. Les références des ebooks restent dans les archives créées par l’application. Conservez ces archives dans un emplacement privé.
 
@@ -42,7 +48,7 @@ Le serveur interne de l’application se limite à la boucle locale et n’est p
 
 La suppression d’un profil efface définitivement les fichiers actifs identifiés comme lui appartenant, après confirmation. Les sauvegardes, les fichiers externes et les fichiers dont l’appartenance reste incertaine sont conservés. Si le dossier du profil est indisponible, le retirer du sélecteur conserve ses fichiers et ses sauvegardes. Des données de récupération et journaux techniques peuvent être conservés pour terminer une opération interrompue. La réinitialisation et la suppression sont des opérations distinctes.
 
-La corbeille des œuvres et collections peut être vidée automatiquement après le délai choisi dans ses paramètres. Cette option est désactivée par défaut. Elle supprime les éléments concernés de la bibliothèque, sans supprimer les vidéos externes de vos dossiers.
+Chaque profil peut désactiver sa corbeille et choisir la suppression définitive après confirmation. La suppression d’une collection conserve ses œuvres par défaut. Lorsque la corbeille est activée, elle peut être vidée automatiquement après le délai choisi dans ses paramètres. Cette option est désactivée par défaut. Elle supprime les éléments concernés de la bibliothèque, sans supprimer les vidéos externes de vos dossiers.
 
 ## Signalements
 
